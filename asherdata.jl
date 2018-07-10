@@ -355,8 +355,15 @@ charstate[53] =      "?000001000101000100000001000?0011-010020000010?1010?001001
 #clean up the data
 # (01) --> (
 charmod = Array{String}(nsp);
+poly = Array{Array}(nsp);
 for i = 1:nsp
     insertp = find(x->x=='(',charstate[i]);
+    poly[i] = Array{Char}(length(insertp),2);
+    for j=1:length(insertp)
+        for k=1:2
+            poly[i][j,k] = charstate[i][insertp[j]+(k)];
+        end
+    end
     if length(insertp) > 0
         deletechar = Array{Int64}(length(insertp)*3)
         t = 1;
@@ -401,8 +408,23 @@ for i = 0:(nsp^2 - 1)
     for j = 1:nmeas
         if CM[a,j] != '?' && CM[b,j] != '?' 
             if CM[a,j] != '-' && CM[b,j] != '-'
+                #Dealing with polymorphisms
                 if CM[a,j] == '(' || CM[b,j] == '('
-                    ct += 1;
+                    if CM[a,j] == '(' && CM[b,j] != '('
+                        if poly[a][j,1] == CM[b,j] || poly[a][j,2] == CM[b,j]
+                            ct += 1;
+                        end
+                    end
+                    if CM[a,j] != '(' && CM[b,j] == '('
+                        if poly[b][j,1] == CM[a,j] || poly[b][j,2] == CM[a,j]
+                            ct += 1;
+                        end
+                    end
+                    if CM[a,j] == '(' && CM[b,j] == '('
+                        if poly[a][j,1] == poly[b][j,1] || poly[a][j,2] == poly[b][j,1] || poly[a][j,2] == poly[b][j,1] || poly[a][j,2] == poly[b][j,2] 
+                            ct += 1;
+                        end
+                    end
                 else
                     if CM[a,j] == CM[b,j]
                         # ct += (sqrt((pcdatatr[a,j]-pcdatatr[b,j])^2)); #/mean(pcdatatr[!ismissing.(pcdatatr[:,j]),j]);

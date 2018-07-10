@@ -54,7 +54,7 @@ nmeas = size(pcdata)[2];
 pcdatatr = pcdata[:,6:nmeas];
 
 #scale to 'mass'
-pcdatatr = Array(pcdatatr) ./ pcdatatr[:femur_length];
+pcdatatr = Array(pcdatatr) ./ Array(pcdatatr[:femur_length]);
 
 nmeas = size(pcdatatr)[2];
 PC = Array{Float64}(nsp,nsp);
@@ -143,7 +143,7 @@ library(plot3D)
 scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]))
 text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$sp,cex=0.5,add=T)
 """
-    
+
 baskspcodes = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/baskervilledata/Table_S1.csv",header=true);
 baskcode = Array(baskspcodes[:code]);
 baskgensp = Array(baskspcodes[:species]);
@@ -194,15 +194,134 @@ R"""
 dev.off()
 """
 
+zdata = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/Zliobaitedata/Zliobaitedata.csv",header=true);
+padata = Array(zdata[:,10:22]);
+zsite = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/Zliobaitedata/Zliobaitesite.csv",header=true);
+
+site = Array(zsite[:site]);
+abbrev = Array(zsite[:abbrev]);
+zsp = Array(zdata[:species]);
+padata = Array(zdata[:,10:22]);
+nsite = length(site);
+
+spmissing = Array{Int64}(nsite);
+for ii = 1:nsite
+    zspsite = zsp[find(isodd,padata[:,ii])];
+    localsp = intersect(zspsite,gensp);
+    spmissing[ii] = length(setdiff(zspsite,gensp));
+end
 
 
-#Build trophic adjacency matrix
-#Species in both datasets
-intpred = intersect(trophic[:,1],gensp);
-intprey = intersect(trophic[:,1],gensp);
-ncombsp = length(combsp)
+# namespace = "$(homedir())/Dropbox/PostDoc/2018_eigenvec/walkerbysite.pdf";
+# R"""
+# library(plot3D)
+# library(scales)
+# pdf($namespace,width=10,height=15)
+# par(mfrow=c(3,5))
+# """
+# for ii = 1:nsite
+#     zspsite = zsp[find(isodd,padata[:,ii])];
+#     localsp = intersect(zspsite,gensp);
+#     keep = indexin(localsp,gensp)
+#     pcdatalocal = pcdatatr[keep,:];
+#     nsp = length(keep);
+#     nmeas = size(pcdatalocal)[2];
+#     PC = Array{Float64}(nsp,nsp);
+#     # measmeans = mean(pcdatatr[!isnothing(pcdatatr)],1);
+#     #Build similarity matrix
+#     for i = 0:(nsp^2 - 1)
+#         a = mod(i,nsp) + 1;
+#         b = Int64(floor(i/nsp)) + 1;
+# 
+#         if a == b
+#             PC[a,b] = 0.0;
+#             continue
+#         end
+#         # if a==1
+#         #     println(b)
+#         # end
+#         ct = 0;
+#         # ct = Array{Float64}(nmeas).*0 + 1;
+#         ctones = 0;
+#         for j = 1:nmeas
+#             if !ismissing(pcdatalocal[a,j]) && !ismissing(pcdatalocal[b,j])
+#                 # ct += (sqrt((pcdatatr[a,j]-pcdatatr[b,j])^2)); #/mean(pcdatatr[!ismissing.(pcdatatr[:,j]),j]);
+#                 ct += log(minimum([pcdatalocal[a,j],pcdatalocal[b,j]])/maximum([pcdatalocal[a,j],pcdatalocal[b,j]]));
+#                 ctones += 1;
+#             end
+#             # ctones += PA[a,j] + PA[b,j];
+#         end
+#         ctscaled = exp(ct/ctones);
+#         PC[a,b] = Float64(ctscaled); #/Float64(ctones);
+# 
+#     end
+# 
+#     maxdiff = minimum([10,nsp-1]);
+# 
+#     S = zeros(Float64,nsp,nsp);
+#     # S = copy(-PC);
+#     for i = 1:nsp
+# 
+#         val = zeros(Float64,maxdiff);
+#         lok = zeros(Int64,maxdiff);
+# 
+#         for j = 1:nsp
+#             if PC[i,j] > val[maxdiff]
+#                 val[maxdiff] = PC[i,j];
+#                 lok[maxdiff] = j;
+#             end
+#             for k=1:maxdiff-1
+#                 if val[maxdiff+1-k] > val[maxdiff-k]
+#                     v = val[maxdiff+1-k];
+#                     val[maxdiff+1-k] = val[maxdiff-k];
+#                     val[maxdiff-k] = v;
+#                     l = lok[maxdiff+1-k];
+#                     lok[maxdiff+1-k] = lok[maxdiff-k];
+#                     lok[maxdiff-k] = l;
+#                 end
+#             end
+#         end
+#         S[i,lok] = -PC[i,lok];
+#         S[lok,i] = -PC[lok,i];
+#     end
+#     rowsums = sum(S,2);
+#     S[diagind(S)] = -rowsums;
+# 
+#     ev = eigs(S; nev=10,which=:SR);
+#     eval = ev[1];
+#     evecs = ev[2];
+# 
+#     R"""
+#     scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),pch=16,colkey=F,theta=0,phi=0,ticktype="detailed",xlab='EV2',ylab='EV3',zlab='EV4',main=$(site[ii]))
+#     text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$(sp[keep]),cex=0.5,add=T,colkey=F)
+#     """
+# 
+# end
+# R"dev.off()"
+
+
+
+namespace = "$(homedir())/Dropbox/PostDoc/2018_eigenvec/walkerbysite2.pdf";
+R"""
+library(plot3D)
+library(scales)
+pdf($namespace,width=15,height=10)
+par(mfrow=c(3,5),
+    oma = c(5,4,0,0) + 0.1, 
+    mar = c(0,0,1,1) + 0.1)
+"""
+
+for ii = sortperm(spmissing)
+    zspsite = zsp[find(isodd,padata[:,ii])];
+    localsp = intersect(zspsite,gensp);
+    # spmissing[ii] = length(setdiff(zspsite,gensp));
+    keep = indexin(localsp,gensp)
     
-        
+    R"""
+    scatter3D($(evecs[keep,2]),$(evecs[keep,3]),$(evecs[keep,4]),pch=16,colkey=F,theta=0,phi=0,ticktype="detailed",xlab='EV2',ylab='EV3',zlab='EV4',main=$(site[ii]))
+    text3D($(evecs[keep,2]),$(evecs[keep,3]),$(evecs[keep,4]),labels=$(sp[keep]),cex=0.5,add=T,colkey=F)
+    """
+    
+end
+R"dev.off()"
 
-
-for i =
