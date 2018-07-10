@@ -1,0 +1,920 @@
+Order,Family,Taxon used,Taxon notes,ID number,Formation,member,strat Notes,t or U,d13C-final,Actual range,Range for discussion,Reference
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 17442,Nachukui,Kaitio,,u,-0.7,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,f,KNM-WT 17491,Nachukui,Kaitio,,t,-2.4,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 17548,Nachukui,Kaitio,,t,1.3,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-LT 28736,Nachukui,Kaiyumung,,t,-6.6,Probably,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,LT 28736,Nachukui,Kaiyumung,,t,-6.6,Probably,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 38157,Nachukui,Kalochoro,,u,-1,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 38190,Nachukui,Kalochoro,,u,-1.5,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,d,KNM-WT 38195,Nachukui,Kalochoro,p,u,1.4,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 29259,Kanapoi,Kanapoi,,u,-2,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 30421ave,Kanapoi,Kanapoi,,u,-0.2,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 32546,Kanapoi,Kanapoi,,u,-1.5,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 32812,Kanapoi,Kanapoi,,u,-3.6,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 32823,Kanapoi,Kanapoi,,u,-0.6,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 66,Kanapoi,Kanapoi,,t,-1.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 67,Kanapoi,Kanapoi,,u,0.1,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-KP 95,Kanapoi,Kanapoi,,u,-5.7,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 38884,Nachukui,Kataboi,,u,0.4,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39016,Nachukui,Kataboi,,u,-2.3,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39028,Nachukui,Kataboi,,u,0.4,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 1040,Koobi Fora,KBS,,u,-5.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 6129,Koobi Fora,KBS,,u,0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 7615,Koobi Fora,KBS,,u,-3.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,FxJj1-366,Koobi Fora,KBS,,u,-0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,FxJj1-567,Koobi Fora,KBS,,u,1.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42600,Koobi Fora,Lonyumun,,u,-3.4,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42607,Koobi Fora,Lonyumun,,u,-10.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42608,Koobi Fora,Lonyumun,,u,-9.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42649,Koobi Fora,Lonyumun,,u,-6.9,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42668,Koobi Fora,Lonyumun,,u,-2.9,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42676,Koobi Fora,Lonyumun,,u,-10.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42817,Koobi Fora,Lonyumun,,u,-9.5,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42900,Koobi Fora,Lonyumun,,u,-1.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 42966,Koobi Fora,Lonyumun,,u,-8.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 43340 ave,Koobi Fora,Lonyumun,,u,-2.5,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 43343,Koobi Fora,Lonyumun,,u,-0.9,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 43349,Koobi Fora,Lonyumun,,u,-8.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-ER 43300,Koobi Fora,Lonyumun,,u,-1.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16413,Nachukui,lower Kalochoro,,u,-0.5,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16414,Nachukui,lower Kalochoro,,u,1.4,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,d,KNM-WT 38259,Nachukui,lower Kalochoro,,u,0.7,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39151,Nachukui,lower Kalochoro,,u,2.2,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16393,Nachukui,lower Lomekwi,,u,-1.7,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16394,Nachukui,lower Lomekwi,,t,-1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16395,Nachukui,lower Lomekwi,,u,-0.2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16400,Nachukui,lower Lomekwi,,u,0.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16417,Nachukui,lower Lomekwi,,t,-0.7,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 37859,Nachukui,lower Lomekwi,,u,-2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39116,Nachukui,lower Lomekwi,,u,-2.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39121,Nachukui,lower Lomekwi,,u,-1.2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16399,Nachukui,middle Lomekwi,,u,0.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 39167,Nachukui,middle Lomekwi,,t,-0.7,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 14928,Nachukui,Nariokotome,,u,-1.3,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Aepycerotini,f,KNM-WT 38630,Nachukui,Nariokotome,,u,-1.4,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Aepycerotini,h,KNM-WT 38167,Nachukui,Natoo,,u,-3,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 6613,Koobi Fora,Okote ,,u,0.1,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 8033b,Koobi Fora,Okote ,,u,-0.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 11221,Koobi Fora,upper Burgi,,u,-1.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 11351,Koobi Fora,upper Burgi,,u,0.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 11615,Koobi Fora,upper Burgi,,u,-1.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 12296,Koobi Fora,upper Burgi,,t,-0.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,f 13035,Koobi Fora,upper Burgi,,u,-2.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Aepycerotini,,FwJj20-1478,Koobi Fora,upper Burgi,,u,-0.4,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Aepycerotini,,FwJj20-5638,Koobi Fora,upper Burgi,,t,0.6,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Aepycerotini,,FwJj20-8372,Koobi Fora,upper Burgi,,u,-3.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Aepycerotini,,FwJj20-9577,Koobi Fora,upper Burgi,,u,2.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 16390,Nachukui,upper Lomekwi,,t,0.6,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Aepycerotini,,KNM-WT 38158,Nachukui,upper Lomekwi,,u,-8,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Aepycerotini/Antilopini,,104-B33.01,Koobi Fora,KBS,,u,-1.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini/Antilopini,,104-B33.02,Koobi Fora,KBS,,u,-0.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini/Antilopini,,104-B7.01,Koobi Fora,KBS,,u,-0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Aepycerotini/Antilopini,,130-54.02,Koobi Fora,upper Burgi,,u,0.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14583,Nachukui,Kaitio,,u,4.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 17489,Nachukui,Kaitio,,u,1.3,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 17522,Nachukui,Kaitio,,u,2.8,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 37876,Nachukui,Kaitio,,u,1.7,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38168,Nachukui,Kaitio,,u,0.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38237,Nachukui,Kaitio,m,t,2.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38478,Nachukui,Kaitio,m,u,2.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,f,KNM-WT 38628,Nachukui,Kaitio,,u,-0.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39164,Nachukui,Kaitio,,t,-0.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14590,Nachukui,Kalochoro,,u,2.2,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14935,Nachukui,Kalochoro,,u,-0.6,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-KP 462C,Kanapoi,Kanapoi,,u,2.9,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-KP 483C,Kanapoi,Kanapoi,,u,2.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-KP 73B,Kanapoi,Kanapoi,,t,0.9,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-KP 73C,Kanapoi,Kanapoi,,u,0.9,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-KP 74,Kanapoi,Kanapoi,,u,-0.2,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14600,Nachukui,Kataboi,,u,0.6,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Alcelaphini,a,KNM-WT 39052,Nachukui,Kataboi,,u,0.9,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Alcelaphini,b,KNM-WT 40226,Nachukui,Kataboi,,u,-2.2,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Alcelaphini,,104-A3.01,Koobi Fora,KBS,,u,1.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,104-A3.02,Koobi Fora,KBS,,u,1.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,104-B17.01,Koobi Fora,KBS,,u,3.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,104-B2.01,Koobi Fora,KBS,,u,1.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,104-B23.01,Koobi Fora,KBS,,u,0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-0208-31.1,Koobi Fora,KBS,,u,0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-01.2,Koobi Fora,KBS,,t,1.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-05.1,Koobi Fora,KBS,,u,0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-06.1,Koobi Fora,KBS,,u,-2.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-44.1,Koobi Fora,KBS,,u,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-45.1,Koobi Fora,KBS,,u,1.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-45.2,Koobi Fora,KBS,,u,1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-B15.1,Koobi Fora,KBS,,u,1.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,105-1311-B36.1,Koobi Fora,KBS,,u,-1.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 43444,Koobi Fora,KBS,,u,0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 6131,Koobi Fora,KBS,,u,2.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 6494 ave,Koobi Fora,KBS,,t,1.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 7444,Koobi Fora,KBS,,u,1.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 7484,Koobi Fora,KBS,,t,1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,FxJj1-62,Koobi Fora,KBS,,u,0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,FxJj82-1737,Koobi Fora,KBS,,u,0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 2373,Koobi Fora,KBS,,t,0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 2518,Koobi Fora,KBS,,u,1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 4323,Koobi Fora,KBS,,t,-0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 4789,Koobi Fora,KBS,,t,-0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 5066,Koobi Fora,KBS,,u,0.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 5148,Koobi Fora,KBS,,u,2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 515,Koobi Fora,KBS,,u,1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16551,Nachukui,Lokalalei,,u,0,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16573,Nachukui,Lokalalei,,t,-0.3,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38189,Nachukui,Lokalalei,,u,-0.4,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38223,Nachukui,Lokalalei,n,u,1.8,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39153,Nachukui,Lokalalei,n,u,1.8,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39154,Nachukui,Lokalalei,n,u,2.9,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 42836,Koobi Fora,Lonyumun,,u,1.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 42879,Koobi Fora,Lonyumun,,u,-2.2,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 11619,Koobi Fora,lower Burgi,,t,1.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16559,Nachukui,lower Kalochoro,,t,0.6,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16571 ave,Nachukui,lower Kalochoro,,u,0.9,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39155,Nachukui,lower Kalochoro,,u,-0.2,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16550,Nachukui,lower Lomekwi,,t,0,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16558,Nachukui,lower Lomekwi,,u,2.2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16580,Nachukui,lower Lomekwi,,t,1.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38876,Nachukui,lower Lomekwi,,t,2.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38882,Nachukui,lower Lomekwi,,u,-0.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38883,Nachukui,lower Lomekwi,,u,1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38887,Nachukui,lower Lomekwi,,u,1.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39042,Nachukui,lower Lomekwi,,u,0.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39048,Nachukui,lower Lomekwi,,u,0.8,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,f,KNM-WT 39076,Nachukui,lower Lomekwi,,u,0.8,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,f,KNM-WT 39082,Nachukui,lower Lomekwi,,u,-1.2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39123,Nachukui,lower Lomekwi,,u,0.8,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39149,Nachukui,lower Lomekwi,,u,0.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39198,Nachukui,lower Lomekwi,,u,0.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39203,Nachukui,lower Lomekwi,,u,1.6,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16410,Nachukui,middle Lomekwi,,u,0.9,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16564B,Nachukui,middle Lomekwi,,u,1.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38199,Nachukui,middle Lomekwi,,u,0.1,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38244,Nachukui,middle Lomekwi,,u,1.7,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38251,Nachukui,middle Lomekwi,,u,1,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14576,Nachukui,Nariokotome,,t,3,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38172,Nachukui,Nariokotome,,u,2.4,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38220,Nachukui,Nariokotome,,t,1.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38229,Nachukui,Nariokotome,,u,1.6,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38249,Nachukui,Nariokotome,,u,1.9,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 39157,Nachukui,Nariokotome,,u,2,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14577,Nachukui,Natoo,,u,2.9,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 14579,Nachukui,Natoo,,u,1.8,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38091,Nachukui,Natoo,,u,1.6,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38186,Nachukui,Natoo,,t,-2.4,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 15775,Koobi Fora,Okote,,u,1.9,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 20006,Koobi Fora,Okote,,u,0.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 20207,Koobi Fora,Okote,,u,0.5,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 20213,Koobi Fora,Okote,,u,0.6,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 20220,Koobi Fora,Okote,,u,2.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 1035,Koobi Fora,Okote,,u,1.8,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 1036,Koobi Fora,Okote,,t,1.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 2543,Koobi Fora,Okote,,u,1.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 4354,Koobi Fora,Okote,,u,0.8,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 5290,Koobi Fora,Okote,,u,-1.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 5685,Koobi Fora,Okote ,,u,1.7,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 7023,Koobi Fora,Okote ,,t,0.5,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 11306 ave,Koobi Fora,upper Burgi,,t,2.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 11373 ave,Koobi Fora,upper Burgi,,u,1.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 11468,Koobi Fora,upper Burgi,,u,1.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 12005,Koobi Fora,upper Burgi,,u,1.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 12005a,Koobi Fora,upper Burgi,,u,-1.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 12676,Koobi Fora,upper Burgi,,u,-0.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,f 13529,Koobi Fora,upper Burgi,,u,-0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-10340,Koobi Fora,upper Burgi,,t,3.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-6595,Koobi Fora,upper Burgi,,t,2.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-6932,Koobi Fora,upper Burgi,,t,2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-6957,Koobi Fora,upper Burgi,,u,2.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-6958,Koobi Fora,upper Burgi,,t,1.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-7624,Koobi Fora,upper Burgi,,u,2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-8173,Koobi Fora,upper Burgi,,t,2.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,FwJj20-8523,Koobi Fora,upper Burgi,,u,2.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 4498,Koobi Fora,upper Burgi,,t,-0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-ER 4658,Koobi Fora,upper Burgi,,t,1.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16389,Nachukui,upper Lomekwi,,u,1.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16484,Nachukui,upper Lomekwi,,t,1.8,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16552,Nachukui,upper Lomekwi,,u,-0.2,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16572,Nachukui,upper Lomekwi,,u,1.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16579,Nachukui,upper Lomekwi,,t,2.2,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 16606C,Nachukui,upper Lomekwi,,u,2.5,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38140,Nachukui,upper Lomekwi,,u,1.6,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38211,Nachukui,upper Lomekwi,,u,1.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38214,Nachukui,upper Lomekwi,o,u,0.7,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,,KNM-WT 38234,Nachukui,upper Lomekwi,,u,1.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Alcelaphini,c,KNM-WT 38475,Nachukui,upper Lomekwi,,u,-2.1,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Gomphotheriidae,Anancus,,KNM-KP 30442,Kanapoi,Kanapoi,,t,-0.1,4.2-4.0,4.3 to 4.0,54
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 38206,Nachukui,Kaitio,m,u,-0.8,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 14606,Nachukui,Kalochoro,,u,-2,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 14609,Nachukui,Kalochoro,,u,-2.8,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 14618,Nachukui,Kalochoro,,u,-1.1,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 39024,Nachukui,Kataboi,,u,-2,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Antilopini,,104-B2.02,Koobi Fora,KBS,,u,-4.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 1408,Koobi Fora,KBS,,u,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 1408,Koobi Fora,KBS,,u,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 2087,Koobi Fora,KBS,,u,0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 7543,Koobi Fora,KBS,,u,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 7605,Koobi Fora,KBS,,u,-1.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 9227,Koobi Fora,KBS,,u,1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 4997,Koobi Fora,KBS,,u,-0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 4997,Koobi Fora,KBS,,t,-1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 5101,Koobi Fora,KBS,,u,-0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 5192,Koobi Fora,KBS,,u,-4.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 5295,Koobi Fora,KBS,,u,-0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Antilopini,,f 42663,Koobi Fora,Lonyumun,,u,-7.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Antilopini,,f 42692,Koobi Fora,Lonyumun,,u,-7.2,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Antilopini,,f 42843,Koobi Fora,Lonyumun,,u,-5.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Antilopini,,f 42881,Koobi Fora,Lonyumun,,u,-7.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Antilopini,,f 42973,Koobi Fora,Lonyumun,,u,-9.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Antilopini,,f 11641,Koobi Fora,lower Burgi,,u,-0.9,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 16405,Nachukui,lower Lomekwi,,u,-5.2,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Antilopini,c,KNM-WT 39050,Nachukui,lower Lomekwi,,u,-1.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 39145,Nachukui,lower Lomekwi,,u,-0.8,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 39170,Nachukui,lower Lomekwi,,u,-1.4,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 40223,Nachukui,lower Lomekwi,,u,-5.4,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 14924,Nachukui,Natoo,,u,-5.1,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 16056,Nachukui,Natoo,,u,-8,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 17425,Nachukui,Natoo,m,u,-0.5,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-WT 38163,Nachukui,Natoo,,u,-0.9,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,f 14421,Koobi Fora,Okote ,,u,0.7,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,ft-02,Koobi Fora,Okote ,,t,-1,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Antilopini,,f 11435,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,f 12479,Koobi Fora,upper Burgi,,u,-8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,f 8050a,Koobi Fora,upper Burgi,,u,0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Antilopini,,KNM-ER 1642,Koobi Fora,upper Burgi,,t,-1.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini,,f 1530,Koobi Fora,KBS,,u,0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Bovini,,f 1778,Koobi Fora,KBS,,u,2.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 5044,Koobi Fora,KBS,,t,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 542,Koobi Fora,KBS,,t,-1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 5455,Koobi Fora,KBS,,t,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 5225,Koobi Fora,Lokochot,,t,-2.6,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Bovini,,KNM-WT 16152,Nachukui,lower Lomekwi,,t,-0.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Bovini,f,KNM-WT 38103,Nachukui,Nariokotome,,u,2.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Bovini,,KNM-WT 14626,Nachukui,Natoo,,u,0.3,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,KNM-WT 16050,Nachukui,Natoo,,u,0.5,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,f 15777,Koobi Fora,Okote,,u,-0.9,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,f 5068,Koobi Fora,Okote,,u,1.1,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 1861C,Koobi Fora,Okote,,u,2.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 5053,Koobi Fora,Okote,,u,2.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 2872,Koobi Fora,"Tulu Bor, lower",,t,-5.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 2956,Koobi Fora,"Tulu Bor, upper",,t,-1.9,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Bovini,,f 11517,Koobi Fora,upper Burgi,,u,-6.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini,,f 12364,Koobi Fora,upper Burgi,,u,1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini,,f 12364,Koobi Fora,upper Burgi,,u,0.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini,,f 12658,Koobi Fora,upper Burgi,,t,1.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini,,KNM-ER 4845,Koobi Fora,upper Burgi,,t,1.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Bovini/Reduncini,,LT 26040,Nachukui,Kaiyumung,,t,-2.1,Probably,3.4 to 3.0,this study
+Artiodactyla,Camelidae,Camelus,,KNM-ER 2608,Koobi Fora,"Tulu Bor, lower",,t,-10,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Camelidae,Camelus,,KNM-WT 16454,Nachukui,upper Lomekwi,,t,-7.3,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-LT 23677,Nachukui,Kaiyumung,,t,-11.1,Probably,3.4 to 3.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,f WT 3617,Kanapoi,Kanapoi,,t,-12.4,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-KP 30557,Kanapoi,Kanapoi,,t,-12.3,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 14987,Nachukui,Kataboi,,t,-12.3,4.0-3.4,4.0 to 3.4,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 39661,Nachukui,Kataboi,,t,-13.6,4.0-3.4,4.0 to 3.4,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 2258,Koobi Fora,KBS,,t,-11.8,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16724,Nachukui,Lokalalei,,t,-13.2,2.5-2.35,2.5-2.35,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 2885,Koobi Fora,Lokochot,,t,-12.3,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 3188,Koobi Fora,Lokochot,,t,-13.1,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 3198,Koobi Fora,Lokochot,,t,-13.7,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Deinotheriidae,Deinotherium,,261-1D,Koobi Fora,Lonyumun,,t,-12.6,4.0-4.3,4.3 to 4.0,54
+Proboscidea,Deinotheriidae,Deinotherium,,f 3640,Koobi Fora,Lonyumun,,t,-12.9,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,f 43441,Koobi Fora,Lonyumun,,t,-12.9,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,f 43688,Koobi Fora,Lonyumun,,t,-13.8,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,f 43789,Koobi Fora,Lonyumun,,u,-12.7,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,f MS 4857,Koobi Fora,Lonyumun,,t,-12.7,4.0-4.3,4.3 to 4.0,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 17896,Koobi Fora,Lonyumun,,t,-10.9,4.0-4.3,4.3 to 4.0,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 43789,Koobi Fora,Lonyumun,,u,-12.7,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16591,Nachukui,lower Kalochoro,,t,-12.6,2.35-2.1,2.35 to 1.9,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16593,Nachukui,lower Lomekwi,,t,-11.1,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 14984,Nachukui,middle Lomekwi,,t,-13,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16589,Nachukui,middle Lomekwi,,t,-13.3,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16592,Nachukui,middle Lomekwi,,t,-12.7,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16722,Nachukui,middle Lomekwi,,t,-13.7,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-ER 4294,Koobi Fora,upper Burgi,,t,-12.5,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16590,Nachukui,upper Lomekwi,,t,-13.6,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16721,Nachukui,upper Lomekwi,,t,-13.8,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Deinotheriidae,Deinotherium,,KNM-WT 16723,Nachukui,upper Lomekwi,,t,-13.2,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 17497,Nachukui,Kaitio,,t,1.2,1.9-1.5,1.9 to 1.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 39260,Nachukui,Kaitio,,t,0,1.9-1.5,1.9 to 1.5,this study
+Proboscidea,Elephantidae,Elephas,,f WT 3570,Kanapoi,Kanapoi,,t,-1.5,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Elephas,,f WT 3614,Kanapoi,Kanapoi,,t,-2.3,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Elephas,,KNM-KP 30173,Kanapoi,Kanapoi,,t,-1.7,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Elephas,,KNM-KP 382,Kanapoi,Kanapoi,,t,-3.8,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-KP 395,Kanapoi,Kanapoi,,t,-3,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-KP 402B,Kanapoi,Kanapoi,,t,-2.5,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-KP 411,Kanapoi,Kanapoi,,t,-4.4,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-ER 1302,Koobi Fora,KBS,,t,0.4,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 1302,Koobi Fora,KBS,,t,0.3,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-ER 1691,Koobi Fora,KBS,,t,0.2,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 1693,Koobi Fora,KBS,,t,-1.5,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 1700 ave,Koobi Fora,KBS,,t,-0.7,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 927,Koobi Fora,KBS,,t,-2.8,1.9-1.55,1.9 to 1.5,54
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16231,Nachukui,Lokalalei,,t,-2.5,2.5-2.35,2.5-2.35,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16007,Nachukui,lower Lomekwi,,u,-1.6,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16008,Nachukui,lower Lomekwi,,t,-0.3,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16009 ave,Nachukui,lower Lomekwi,,t,0.2,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16010,Nachukui,lower Lomekwi,,t,0.3,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16011,Nachukui,lower Lomekwi,,t,-0.7,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16013,Nachukui,lower Lomekwi,,t,-1.8,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 39295,Nachukui,lower Lomekwi,,t,-0.6,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16455,Nachukui,middle Lomekwi,,t,-0.6,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16457,Nachukui,middle Lomekwi,,t,-0.3,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 14538,Nachukui,Nariokotome,,t,-0.8,1.3-0.75,1.3 to 1.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 14983,Nachukui,Nariokotome,,t,-0.3,1.3-0.75,1.3 to 1.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 19644,Nachukui,Nariokotome,,u,-0.3,1.3-0.75,1.3 to 1.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 38967,Nachukui,Nariokotome,,t,0.5,1.3-0.75,1.3 to 1.0,this study
+Proboscidea,Elephantidae,Elephas,,f 15781A,Koobi Fora,Okote,,u,0.5,1.55-1.4,1.5 to 1.3,this study
+Proboscidea,Elephantidae,Elephas,,KNM-ER 767,Koobi Fora,Okote,,t,-3.4,1.55-1.4,1.5 to 1.3,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 2894,Koobi Fora,Tulu Bor or Lokochot,,t,-2,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 2895,Koobi Fora,Tulu Bor or Lokochot,,t,-2.1,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 3191,Koobi Fora,"Tulu Bor, lower",,t,-1.3,3.4-3.0,3.4 to 3.0,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 4106,Koobi Fora,"Tulu Bor, lower",,t,0.2,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Elephas,,KNM-ER 4102,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 4113,Koobi Fora,upper Burgi,,t,0.1,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Elephas,,KNM-ER 5871,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16232,Nachukui,upper Lomekwi,,t,0.2,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16679,Nachukui,upper Lomekwi,,t,0.6,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 16680,Nachukui,upper Lomekwi,,t,0.3,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 39250,Nachukui,upper Lomekwi,,t,-1.6,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,Elephas,,KNM-WT 39256,Nachukui,upper Lomekwi,,t,-3.5,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Equidae,Equus,,KNM-ER 4066,Koobi Fora,Chari,,u,-1.4,1.3 to 1.0,1.3 to 1.0,this study
+Perissodactyla,Equidae,Equus,,KNM-WT 14676,Nachukui,Kalochoro,,u,-0.5,2.35-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,KNM-WT 14679,Nachukui,Kalochoro,,u,0,2.35-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,KNM-WT 14682,Nachukui,Kalochoro,,u,-0.3,2.35-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 6280,Koobi Fora,KBS,,u,1.3,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,Equus,,f 7285,Koobi Fora,KBS,,u,-0.1,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,Equus,,ft-6,Koobi Fora,KBS,,u,-1.5,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,Equus,,KNM-ER 1224,Koobi Fora,KBS,,u,0.3,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus,,KNM-ER 1259 ave,Koobi Fora,KBS,,u,0.5,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus,,KNM-ER 2642,Koobi Fora,KBS,,t,-0.1,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus,,KNM-ER 4030,Koobi Fora,KBS,,u,2.1,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus,,KNM-WT 14677,Nachukui,Nariokotome,,u,0,1.3-0.75,1.3 to 1.0,this study
+Perissodactyla,Equidae,Equus,,f 5066,Koobi Fora,Okote,,u,-2.1,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus,,f 5070,Koobi Fora,Okote,,u,-1.7,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus,,K92-4832,Koobi Fora,Okote,,t,-2.1,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus,,KNM-ER 1227,Koobi Fora,Okote,,u,-0.2,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus,,KNM-ER 2684,Koobi Fora,Okote,,u,0,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus,,f 7033,Koobi Fora,Okote ,,t,1,1.55-1.4,1.5 to 1.3,this study
+Perissodactyla,Equidae,Equus,,f 13050,Koobi Fora,upper Burgi,,t,-0.5,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 2170,Koobi Fora,upper Burgi,,u,0.6,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 3815,Koobi Fora,upper Burgi,,u,1.2,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 44-07,Koobi Fora,upper Burgi,,u,1.1,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 4801,Koobi Fora,upper Burgi,,u,0,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 5677,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,f 6143,Koobi Fora,upper Burgi,,u,1.7,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus,,FwJj20-7531,Koobi Fora,upper Burgi,,u,0.1,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Equus,,FwJj20-7710,Koobi Fora,upper Burgi,,u,-0.3,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Equus ,,KNM-ER 1250,Koobi Fora,KBS,,t,0.7,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus ,,KNM-ER 1255,Koobi Fora,KBS,,t,-0.9,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus ,,KNM-ER 2064,Koobi Fora,KBS,,t,-0.1,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Equus ,,KNM-ER 2613,Koobi Fora,KBS,,t,-0.4,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,Equus ,,KNM-ER 2066,Koobi Fora,Okote,,t,0.7,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus ,,KNM-ER 2672,Koobi Fora,Okote,,t,-1.1,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus ,,KNM-ER 2680,Koobi Fora,Okote,,t,0.5,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Equus ,,FwJj20-6754,Koobi Fora,upper Burgi,,u,0.3,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Equus ,,KNM-ER 1271,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus ,,KNM-ER 4020,Koobi Fora,upper Burgi,,t,-0.7,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus ,,KNM-ER 4043,Koobi Fora,upper Burgi,,t,0.4,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Equus ,,KNM-ER 4044,Koobi Fora,upper Burgi,,t,-3.8,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 17449,Nachukui,Kaitio,,u,-1,1.9-1.5,1.9 to 1.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 17526,Nachukui,Kaitio,,u,-0.7,1.9-1.5,1.9 to 1.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 14542,Nachukui,Kalochoro,,u,-0.3,2.35-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16120,Nachukui,Kalochoro,,u,0.5,2.35-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f WT 3581,Kanapoi,Kanapoi,,t,1.2,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f 6101,Koobi Fora,KBS,,u,1.1,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 5359,Koobi Fora,KBS,,t,-0.4,1.9-1.55,1.9 to 1.5,37
+Perissodactyla,Equidae,Eurygnathohippus,,f 13763,Koobi Fora,Lokochot,,u,-0.5,3.6-3.4,4.0 to 3.4,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 2921,Koobi Fora,Lokochot,,u,-2,3.6-3.4,4.0 to 3.4,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 2923,Koobi Fora,Lokochot,,u,-1.1,3.6-3.4,4.0 to 3.4,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 4080,Koobi Fora,Lokochot,,u,0,3.6-3.4,4.0 to 3.4,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16093,Nachukui,lower Lomekwi,,u,-2.3,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16100,Nachukui,lower Lomekwi,,u,-1.5,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16104,Nachukui,lower Lomekwi,,u,-0.5,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16107,Nachukui,lower Lomekwi,,u,0.6,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16109,Nachukui,lower Lomekwi,,u,-0.3,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16097,Nachukui,middle Lomekwi,,u,-0.9,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16099,Nachukui,middle Lomekwi,,u,0.4,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16117,Nachukui,middle Lomekwi,,u,-0.4,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f 112059,Koobi Fora,Okote,,u,-0.5,1.55-1.4,1.5 to 1.3,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 2668,Koobi Fora,Okote,,t,0.1,1.55-1.4,1.5 to 1.3,37
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 2786,Koobi Fora,"Tulu Bor, lower",,u,-2.1,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 2788,Koobi Fora,"Tulu Bor, lower",,u,-0.7,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 4073,Koobi Fora,"Tulu Bor, lower",,u,-3.5,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 4075,Koobi Fora,"Tulu Bor, lower",,t,-1.6,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f 14049,Koobi Fora,upper Burgi,,t,1.1,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f 5525,Koobi Fora,upper Burgi,,u,0.9,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,f 7361,Koobi Fora,upper Burgi,,t,0.5,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,FwJj20-1830,Koobi Fora,upper Burgi,,u,0.9,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Eurygnathohippus,,FwJj20-5493,Koobi Fora,upper Burgi,,u,0.7,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Eurygnathohippus,,FwJj20-8384,Koobi Fora,upper Burgi,,u,1.4,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-ER 4094,Koobi Fora,upper Burgi,,t,0.9,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Equidae,Eurygnathohippus,,KNM-WT 16114,Nachukui,upper Lomekwi,,u,0.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-KP 30151,Kanapoi,Kanapoi,,u,-10.3,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-KP 30428,Kanapoi,Kanapoi,,u,-12.9,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-KP 30636,Kanapoi,Kanapoi,,u,-12.3,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-KP 30637a,Kanapoi,Kanapoi,,t,-10.6,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,f 12237,Koobi Fora,KBS,,u,-10.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Giraffa,,f 14249,Koobi Fora,KBS,,u,-10.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Giraffa,,f 6177 rpt,Koobi Fora,KBS,,u,-11,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Giraffa,,f 7133,Koobi Fora,KBS,,u,-12.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Giraffa,,FxJj1-619,Koobi Fora,KBS,,u,-12.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 1492,Koobi Fora,KBS,,t,-10.7,1.9-1.55,1.9 to 1.5,37
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 1495,Koobi Fora,KBS,,t,-12.2,1.9-1.55,1.9 to 1.5,37
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 932,Koobi Fora,KBS,,t,-12.1,1.9-1.55,1.9 to 1.5,37
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 16228,Nachukui,Lokalalei,,t,-12.8,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 1488,Koobi Fora,Lokochot,,t,-12.5,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 1489,Koobi Fora,Lokochot,,t,-11.8,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Giraffidae,Giraffa,,261-1H,Koobi Fora,Lonyumun,,t,-10.9,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,f MS 4859,Koobi Fora,Lonyumun,,t,-11.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 16219,Nachukui,lower Lomekwi,,t,-11.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 39868,Nachukui,lower Lomekwi,,u,-11.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 39871,Nachukui,lower Lomekwi,,t,-11.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 39872,Nachukui,lower Lomekwi,,u,-9.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 39874,Nachukui,lower Lomekwi,,u,-12.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 44451,Nachukui,lower Lomekwi,,u,-9.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 16218,Nachukui,middle Lomekwi,,t,-11.7,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Giraffidae,Giraffa,,f 5075,Koobi Fora,Okote,,u,-9.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 664,Koobi Fora,Okote,,t,-12.5,1.55-1.4,1.5 to 1.3,37
+Artiodactyla,Giraffidae,Giraffa,,f 14110,Koobi Fora,Okote ,,u,-11.6,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Giraffidae,Giraffa,,f 14417,Koobi Fora,Okote ,,u,-9.8,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Giraffidae,Giraffa,,f 11354,Koobi Fora,upper Burgi,,u,-12,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,f 12031,Koobi Fora,upper Burgi,,u,-11.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,f 12061,Koobi Fora,upper Burgi,,u,-8.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,f 13083,Koobi Fora,upper Burgi,,u,-10.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,f 14014,Koobi Fora,upper Burgi,,u,-11.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,f 7243,Koobi Fora,upper Burgi,,u,-11.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,FwJj20-1800,Koobi Fora,upper Burgi,,u,-11.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Giraffidae,Giraffa,,FwJj20-8599,Koobi Fora,upper Burgi,,u,-12.9,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Giraffidae,Giraffa,,KNM-ER 4641,Koobi Fora,upper Burgi,,t,-11.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Giraffa,,KNM-WT 16224,Nachukui,upper Lomekwi,,t,-11.5,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14506,Nachukui,Kaitio,,t,-0.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 17419,Nachukui,Kaitio,,t,-0.2,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 17474,Nachukui,Kaitio,,t,2.4,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39231,Nachukui,Kaitio,,t,-2.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14750,Nachukui,Kalochoro,,t,-1.7,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14751,Nachukui,Kalochoro,,t,-1.1,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39764,Nachukui,Kalochoro,,t,-2.1,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 11,Kanapoi,Kanapoi,,t,-3.5,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 26J,Kanapoi,Kanapoi,,t,-1,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 30209,Kanapoi,Kanapoi,,t,-1.5,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 30210,Kanapoi,Kanapoi,,t,0.1,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 30211,Kanapoi,Kanapoi,,t,-4.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 30224,Kanapoi,Kanapoi,,t,-0.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-KP 30632,Kanapoi,Kanapoi,,u,-2.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14515,Nachukui,Kataboi,,t,-0.1,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39668,Nachukui,Kataboi,,t,-4.3,4.0-3.4,4.0 to 3.4,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,104-A3.03,Koobi Fora,KBS,,t,-3.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,104-B1.01,Koobi Fora,KBS,,u,0,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,104-B17.03,Koobi Fora,KBS,,t,0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,104-B24.01,Koobi Fora,KBS,,t,-2.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,104-B7.02,Koobi Fora,KBS,,u,-7.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,105-1311-01.1,Koobi Fora,KBS,,u,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,105-1311-03.6,Koobi Fora,KBS,,t,-1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,105-1311-03.7,Koobi Fora,KBS,,t,-1.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FxJj1-2019,Koobi Fora,KBS,,u,-1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FxJj3-40,Koobi Fora,KBS,,t,-0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1412,Koobi Fora,KBS,,t,-2.9,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1422,Koobi Fora,KBS,,t,0,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2186,Koobi Fora,KBS,,t,-1.8,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5464,Koobi Fora,KBS,,t,-0.5,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5509,Koobi Fora,KBS,,t,-3,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5510,Koobi Fora,KBS,,t,-0.2,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5513,Koobi Fora,KBS,,t,-0.1,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5576,Koobi Fora,KBS,,t,-1.5,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5648,Koobi Fora,KBS,,t,-2.7,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 637,Koobi Fora,KBS,,t,-1.1,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 638,Koobi Fora,KBS,,t,-0.3,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 671,Koobi Fora,KBS,,t,-1.9,1.9-1.55,1.9 to 1.5,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 16378,Nachukui,Lokalalei,n,t,-2.3,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2801,Koobi Fora,Lokochot,,t,-2.6,3.6-3.4,4.0 to 3.4,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 4119,Koobi Fora,Lokochot,,t,-6.1,3.6-3.4,4.0 to 3.4,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 4120,Koobi Fora,Lokochot,,t,-2.6,3.6-3.4,4.0 to 3.4,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5231,Koobi Fora,Lokochot,,t,-9.9,3.6-3.4,4.0 to 3.4,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,261-1F,Koobi Fora,Lonyumun,,t,-7.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,261-1G,Koobi Fora,Lonyumun,,t,-3.9,4.0-4.3,4.3 to 4.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 30349-average,Koobi Fora,Lonyumun,,t,-12.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 3631,Koobi Fora,Lonyumun,,u,1.7,4.0-4.3,4.3 to 4.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 3638,Koobi Fora,Lonyumun,,t,-5.6,4.0-4.3,4.3 to 4.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 3645-average,Koobi Fora,Lonyumun,,t,-0.8,4.0-4.3,4.3 to 4.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 39470,Koobi Fora,Lonyumun,,t,-0.5,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 39479,Koobi Fora,Lonyumun,,u,-1.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 39488,Koobi Fora,Lonyumun,,t,-3.2,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 39491,Koobi Fora,Lonyumun,,u,-1.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 39492,Koobi Fora,Lonyumun,,u,-1.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43119,Koobi Fora,Lonyumun,,u,-1.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43123,Koobi Fora,Lonyumun,,u,-2.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43126,Koobi Fora,Lonyumun,,u,-0.2,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43131,Koobi Fora,Lonyumun,,t,-6.1,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43139,Koobi Fora,Lonyumun,,t,-3.4,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 43872,Koobi Fora,Lonyumun,,u,-2.5,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f MS 4891a,Koobi Fora,Lonyumun,,t,-8.9,4.0-4.3,4.3 to 4.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 16377,Nachukui,lower Lomekwi,,u,-0.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 16382,Nachukui,lower Lomekwi,,t,-0.9,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39674,Nachukui,lower Lomekwi,,u,-7.6,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39684,Nachukui,lower Lomekwi,,t,-7.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39759,Nachukui,lower Lomekwi,,t,-4.7,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39766,Nachukui,lower Lomekwi,,u,-5.4,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39775,Nachukui,lower Lomekwi,,u,-0.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 6171,Koobi Fora,Moiti,,t,-5.4,4.0-3.6,4.0 to 3.4,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14974,Nachukui,Nariokotome,,t,0.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14977,Nachukui,Nariokotome,,t,-0.2,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39228,Nachukui,Nariokotome,,t,0.2,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 14979,Nachukui,Natoo,,t,1,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 16061,Nachukui,Natoo,,t,-3.5,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 17462,Nachukui,Natoo,,t,-0.5,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,f 20004,Koobi Fora,Okote,,u,-0.5,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1396,Koobi Fora,Okote,,t,0.1,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1409,Koobi Fora,Okote,,t,-1.6,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1427,Koobi Fora,Okote,,t,-0.7,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2045,Koobi Fora,Okote,,t,-3.6,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5500,Koobi Fora,Okote,,t,-2.1,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5501,Koobi Fora,Okote,,t,-0.6,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5502,Koobi Fora,Okote,,t,-2.7,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5512,Koobi Fora,Okote,,t,-1.3,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5543,Koobi Fora,Okote,,t,-1.4,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5573,Koobi Fora,Okote,,t,-1,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 5577,Koobi Fora,Okote,,t,-0.6,1.55-1.4,1.5 to 1.3,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2802,Koobi Fora,"Tulu Bor, lower",,t,-2.7,3.4-3.0,3.4 to 3.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2803,Koobi Fora,"Tulu Bor, lower",,t,-5.1,3.4-3.0,3.4 to 3.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2804,Koobi Fora,"Tulu Bor, lower",,t,-2.4,3.4-3.0,3.4 to 3.0,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,Df 623,Koobi Fora,upper Burgi,,t,-0.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-2287,Koobi Fora,upper Burgi,,u,0.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-5076,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-5238,Koobi Fora,upper Burgi,,t,0.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-5654,Koobi Fora,upper Burgi,,t,-1.4,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-5850,Koobi Fora,upper Burgi,,t,-1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-6869,Koobi Fora,upper Burgi,,t,-0.6,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-7081,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-8390,Koobi Fora,upper Burgi,,t,-1.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-8657,Koobi Fora,upper Burgi,,t,-1.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,FwJj20-8684,Koobi Fora,upper Burgi,,t,-1.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1394,Koobi Fora,upper Burgi,,t,0.1,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1399 ave,Koobi Fora,upper Burgi,,u,0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1426,Koobi Fora,upper Burgi,,t,-2.4,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 1514,Koobi Fora,upper Burgi,,t,-0.4,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2184,Koobi Fora,upper Burgi,,t,-1.8,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 2279,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 4887,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 785,Koobi Fora,upper Burgi,,t,-3.1,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-ER 943,Koobi Fora,upper Burgi,,t,-1.2,2.1-1.9,2.35 to 1.9,57
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 16375,Nachukui,upper Lomekwi,,t,-2.2,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 38806,Nachukui,upper Lomekwi,,t,-0.5,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 38807,Nachukui,upper Lomekwi,,u,-3.2,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 38851,Nachukui,upper Lomekwi,,t,-1.7,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Hippopotamidae,Hippopotamus s.l.,,KNM-WT 39362,Nachukui,upper Lomekwi,,u,-6.8,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Hippotragini,f,KNM-WT 14891,Nachukui,Kaitio,,t,0.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Hippotragini,d,KNM-WT 17439,Nachukui,Kaitio,,u,2.7,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Hippotragini,e,KNM-WT 38235,Nachukui,Kaitio,,t,1.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-ER 1911,Koobi Fora,KBS,,t,-2.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39156,Nachukui,lower Kalochoro,,u,1.1,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Hippotragini,e,KNM-WT 39038,Nachukui,lower Lomekwi,,t,-0.6,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39045,Nachukui,lower Lomekwi,,u,-3.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39078,Nachukui,lower Lomekwi,,t,-2.7,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39087,Nachukui,lower Lomekwi,,u,-7.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39174,Nachukui,lower Lomekwi,,u,-4.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 39166,Nachukui,middle Lomekwi,,t,-4.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 38173,Nachukui,Natoo,,u,-0.3,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Hippotragini,,f 12146,Koobi Fora,upper Burgi,,t,-1.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Hippotragini,,f 12535,Koobi Fora,upper Burgi,,u,1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Hippotragini,,f 7224,Koobi Fora,upper Burgi,,u,-0.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Hippotragini,,FwJj20-7923,Koobi Fora,upper Burgi,,t,2.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Hippotragini,,KNM-WT 38166,Nachukui,upper Lomekwi,,u,0,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 17488,Nachukui,Kaitio,,u,-4.5,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 17492,Nachukui,Kaitio,,u,-3.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 17516,Nachukui,Kaitio,,u,-0.2,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 14966,Nachukui,Kalochoro,,u,0.2,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,105-0208-21.1,Koobi Fora,KBS,,u,-0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,105-0208-37.1,Koobi Fora,KBS,,t,-0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,105-1311-X.2,Koobi Fora,KBS,,u,-0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,FxJj1-03,Koobi Fora,KBS,,u,0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,FxJj3-2111,Koobi Fora,KBS,,u,0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 2704 ave,Koobi Fora,KBS,,t,1.1,1.9-1.55,1.9 to 1.5,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 3304,Koobi Fora,KBS,,t,0.2,1.9-1.55,1.9 to 1.5,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 14967,Nachukui,Natoo,,u,-0.6,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 16055,Nachukui,Natoo,,u,1.4,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 17484,Nachukui,Natoo,,u,-1.2,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 3245,Koobi Fora,Okote,,t,-0.1,1.55-1.4,1.5 to 1.3,49
+Artiodactyla,Suidae,Kolpochoerus,,130-54.01,Koobi Fora,upper Burgi,,u,-0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,f 11133,Koobi Fora,upper Burgi,,u,0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,f 11144A,Koobi Fora,upper Burgi,,t,0.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,f 11560,Koobi Fora,upper Burgi,,t,-1.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,f 12013,Koobi Fora,upper Burgi,,t,0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,f 9030,Koobi Fora,upper Burgi,,t,0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-6364,Koobi Fora,upper Burgi,,t,0.9,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-6591,Koobi Fora,upper Burgi,,t,0.6,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-7312,Koobi Fora,upper Burgi,,t,-0.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-8037,Koobi Fora,upper Burgi,,u,0.4,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-8144,Koobi Fora,upper Burgi,,t,-0.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,FwJj20-8391,Koobi Fora,upper Burgi,,t,0.6,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 3283,Koobi Fora,upper Burgi,,t,-0.4,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 3536,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 4152,Koobi Fora,upper Burgi,,t,0.1,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-ER 4157,Koobi Fora,upper Burgi,,t,0.7,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 16017,Nachukui,upper Lomekwi,,u,0.5,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 16024,Nachukui,upper Lomekwi,,u,-5,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 16026,Nachukui,upper Lomekwi,,u,-2.2,3.0-2.5,3.0 to 2.5,49
+Artiodactyla,Suidae,Kolpochoerus,,KNM-WT 16217,Nachukui,upper Lomekwi,,u,0,3.0-2.5,3.0 to 2.5,49
+Artiodactyla,Suidae,Kolpochoerus ,,f 6014,Koobi Fora,Okote ,,t,-1.7,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Kolpochoerus ,,f 7125,Koobi Fora,upper Burgi,,t,-0.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Kolpochoerus ,,f 9029,Koobi Fora,upper Burgi,,t,0.5,2.1-1.9,2.35 to 1.9,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 17470,Nachukui,Kaitio,,t,0.3,1.9-1.5,1.9 to 1.5,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 39251,Nachukui,Kalochoro,,t,-0.5,2.35-1.9,2.35 to 1.9,this study
+Proboscidea,Elephantidae,Loxodonta,,f WT 3833,Kanapoi,Kanapoi,,t,-1.1,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-KP 28441,Kanapoi,Kanapoi,,t,-6.3,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-KP 383,Kanapoi,Kanapoi,,t,-1.7,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-KP 389,Kanapoi,Kanapoi,,t,-2.6,4.2-4.0,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-KP 390C,Kanapoi,Kanapoi,,t,-0.3,4.2-4.0,4.3 to 4.0,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 14540,Nachukui,Kataboi,,t,-1,4.0-3.4,4.0 to 3.4,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 3196,Koobi Fora,Lokochot,,t,-2.2,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 3201,Koobi Fora,Lokochot,,t,-2.1,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 4939,Koobi Fora,Lokochot,,t,-3.1,3.6-3.4,4.0 to 3.4,54
+Proboscidea,Elephantidae,Loxodonta,,f 43794,Koobi Fora,Lonyumun,,t,-1.8,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 16594,Nachukui,lower Lomekwi,,t,-0.7,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 39242,Nachukui,lower Lomekwi,,u,-2.8,3.4-3.0,3.4 to 3.0,this study
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 1299,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 338,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-ER 4910,Koobi Fora,upper Burgi,,t,0.5,2.1-1.9,2.35 to 1.9,54
+Proboscidea,Elephantidae,Loxodonta,,KNM-WT 38968,Nachukui,upper Lomekwi,,t,0.4,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,KNM-WT 16275,Nachukui,Kalochoro,,u,0.1,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,KNM-WT 16280,Nachukui,Kalochoro,,u,-0.6,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-0208-38.1,Koobi Fora,KBS,,t,-0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-01.4,Koobi Fora,KBS,,u,-0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-01.4,Koobi Fora,KBS,,u,-0.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-01.4,Koobi Fora,KBS,,u,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-04.1,Koobi Fora,KBS,,u,-1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-04.2,Koobi Fora,KBS,,t,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,105-1311-18.2,Koobi Fora,KBS,,t,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 14439,Koobi Fora,KBS,,u,-0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 14440,Koobi Fora,KBS,,u,0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 16003,Koobi Fora,KBS,,t,0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 18007,Koobi Fora,KBS,,u,0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 2048,Koobi Fora,KBS,,t,-1.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 2056,Koobi Fora,KBS,,t,0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 6553,Koobi Fora,KBS,,u,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj1-13,Koobi Fora,KBS,,u,0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj3-1023,Koobi Fora,KBS,,u,0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj82-1286,Koobi Fora,KBS,,t,0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj82-1294,Koobi Fora,KBS,,t,-0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj82-432,Koobi Fora,KBS,,t,0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj82-436,Koobi Fora,KBS,,t,0,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,FxJj82-453,Koobi Fora,KBS,,u,-0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3653,Koobi Fora,KBS,,t,0.4,1.9-1.55,1.9 to 1.5,49
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 5240,Koobi Fora,KBS,,t,0.4,1.9-1.55,1.9 to 1.5,49
+Artiodactyla,Suidae,Metridiochoerus,,KNM-WT 16205,Nachukui,middle Lomekwi,,u,-0.2,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 15779,Koobi Fora,Okote,,u,0.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 20008,Koobi Fora,Okote,,u,0.8,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 20009,Koobi Fora,Okote,,t,-2.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 20018,Koobi Fora,Okote,,u,0.1,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 20221,Koobi Fora,Okote,,u,-0.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 2719,Koobi Fora,Okote,,t,-0.2,1.55-1.4,1.5 to 1.3,49
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3240,Koobi Fora,Okote,,t,0.5,1.55-1.4,1.5 to 1.3,49
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3627,Koobi Fora,Okote,,t,0.1,1.55-1.4,1.5 to 1.3,49
+Artiodactyla,Suidae,Metridiochoerus,,f 6098,Koobi Fora,Okote ,,t,-0.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 11368,Koobi Fora,upper Burgi,,t,-0.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 11443,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 12263,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 13012,Koobi Fora,upper Burgi,,t,-0.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 13029,Koobi Fora,upper Burgi,,u,-1.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 13066,Koobi Fora,upper Burgi,,u,-0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 13519,Koobi Fora,upper Burgi,,u,-0.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 19013,Koobi Fora,upper Burgi,,t,-0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 6294,Koobi Fora,upper Burgi,,t,0.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 6482,Koobi Fora,upper Burgi,,t,0.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 7106,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 8026,Koobi Fora,upper Burgi,,u,-0.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,f 9101,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-10368,Koobi Fora,upper Burgi,,u,-0.8,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-10381,Koobi Fora,upper Burgi,,u,-0.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-10394,Koobi Fora,upper Burgi,,u,0.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-1630,Koobi Fora,upper Burgi,,t,-0.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-7932,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-7942,Koobi Fora,upper Burgi,,u,-1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,FwJj20-8633,Koobi Fora,upper Burgi,,t,-0.4,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3362,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3477,Koobi Fora,upper Burgi,,t,-0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus,,KNM-ER 3696,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 14646,Nachukui,Kalochoro,,u,-0.2,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Metridiochoerus ,,f 6681,Koobi Fora,KBS,,t,-0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 14906,Nachukui,Nariokotome,,u,0.2,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 14907,Nachukui,Nariokotome,,u,-0.4,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 17509,Nachukui,Nariokotome,,u,0.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 14898,Nachukui,Natoo,,u,1.1,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus ,,KNM-WT 14910,Nachukui,Natoo,,u,0,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus ,,f 6083,Koobi Fora,Okote ,,u,0.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Suidae,Metridiochoerus ,,f 7031,Koobi Fora,Okote ,,u,0.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Neotragini,,f WT 3779-Madoqua,Kanapoi,Kanapoi,,t,-11.6,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-LT 23767,Nachukui,Kaiyumung,,t,-1.8,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-LT 24050,Nachukui,Kaiyumung,,t,-0.5,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-LT 26074,Nachukui,Kaiyumung,,t,-1.2,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-LT 26596,Nachukui,Kaiyumung,,t,-0.2,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-LT 289,Nachukui,Kaiyumung,,t,-2,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Notochoerus,,f KP 3348 B,Kanapoi,Kanapoi,,t,-1.7,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-KP 205,Kanapoi,Kanapoi,,t,-6.5,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-KP 241,Kanapoi,Kanapoi,,t,-2,4.2-4.0,4.3 to 4.0,49
+Artiodactyla,Suidae,Notochoerus,,KNM-KP 265,Kanapoi,Kanapoi,,t,-5.5,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Suidae,Notochoerus,,105-1311-01.3,Koobi Fora,KBS,,t,-1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,Notochoerus,,f 3663,Koobi Fora,Lokochot,,t,-7.6,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Suidae,Notochoerus,,f 3686,Koobi Fora,Lokochot,,t,-0.7,3.6-3.4,4.0 to 3.4,49
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 225,Koobi Fora,Lokochot,,t,-0.6,3.6-3.4,4.0 to 3.4,49
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 2877,Koobi Fora,Tulu Bor or Lokochot,,t,-2.3,3.6-3.4,4.0 to 3.4,49
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 3334,Koobi Fora,"Tulu Bor, lower",,t,-2.9,3.4-3.0,3.4 to 3.0,49
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 2782,Koobi Fora,"Tulu Bor, upper",,t,-0.8,3.0-2.5,3.0 to 2.5,49
+Artiodactyla,Suidae,Notochoerus,,f 11218,Koobi Fora,upper Burgi,,t,-0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,f 12552,Koobi Fora,upper Burgi,,t,-0.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,f 13065,Koobi Fora,upper Burgi,,t,-0.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,f 14064,Koobi Fora,upper Burgi,,u,-0.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,f 14090,Koobi Fora,upper Burgi,,u,-0.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,FwJj20-144,Koobi Fora,upper Burgi,,t,-0.7,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Notochoerus,,FwJj20-1699,Koobi Fora,upper Burgi,,u,-0.3,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Notochoerus,,FwJj20-7943,Koobi Fora,upper Burgi,,u,0,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Notochoerus,,FwJj20-8698,Koobi Fora,upper Burgi,,t,-0.5,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 3478,Koobi Fora,upper Burgi,,t,-2.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 3559,Koobi Fora,upper Burgi,,t,-1.1,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Notochoerus,,KNM-ER 3587,Koobi Fora,upper Burgi,,t,-0.3,2.1-1.9,2.35 to 1.9,49
+Artiodactyla,Suidae,Nyanzachoerus,,KNM-LT 26137,Nachukui,Kaiyumung,,t,-2.9,Probably,3.4 to 3.0,this study
+Artiodactyla,Suidae,Nyanzachoerus,,f KP-X10,Kanapoi,Kanapoi,,t,-1.2,4.2-4.0,4.3 to 4.0,49
+Artiodactyla,Suidae,Nyanzachoerus,,f WT 3222,Kanapoi,Kanapoi,,t,-1.9,4.2-4.0,4.3 to 4.0,49
+Artiodactyla,Suidae,Nyanzachoerus,,f WT 3227,Kanapoi,Kanapoi,,t,-1.7,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Suidae,Nyanzachoerus,,KNM-ER 3177,Koobi Fora,Lokochot,,t,-2.1,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Suidae,Nyanzachoerus,,261-1E,Koobi Fora,Lonyumun,,t,-4.4,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Suidae,Nyanzachoerus,,KNM-ER 2881,Koobi Fora,Tulu Bor or Lokochot,,t,-3.3,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 17521,Nachukui,Kaitio,,u,0.9,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 17538,Nachukui,Kaitio,,u,2.6,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 14718,Nachukui,Kalochoro,,u,-1.7,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 14739,Nachukui,Kalochoro,,u,0.5,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,g,KNM-WT 16170,Nachukui,Kalochoro,,u,-2.2,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,104-B31.01,Koobi Fora,KBS,,u,-0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 6601,Koobi Fora,KBS,,t,-0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7104,Koobi Fora,KBS,,u,1.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7428,Koobi Fora,KBS,,u,0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7516,Koobi Fora,KBS,,u,1.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7525,Koobi Fora,KBS,,u,0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7581,Koobi Fora,KBS,,t,-1.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 7586,Koobi Fora,KBS,,u,1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-ER 4409,Koobi Fora,KBS,,t,0.8,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-ER 4557,Koobi Fora,KBS,,t,-0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 16134,Nachukui,Lomekwi,,u,0,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 16138,Nachukui,Lomekwi,,u,-1.6,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 16130,Nachukui,lower Kalochoro,,u,-4.4,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 14697,Nachukui,Nariokotome,,u,-0.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 14699,Nachukui,Nariokotome,,u,1.3,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 14725,Nachukui,Natoo,,u,1.8,1.5-1.3,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 15773,Koobi Fora,Okote,,u,-1.9,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 20003,Koobi Fora,Okote,,u,-1.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 20027,Koobi Fora,Okote,,u,-1.1,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 20209,Koobi Fora,Okote,,u,0.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 5167,Koobi Fora,Okote,,u,1.2,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 7000,Koobi Fora,Okote ,,u,2.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,f 7015 ave,Koobi Fora,Okote ,,u,0.9,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-ER 5025,Koobi Fora,"Tulu Bor, upper",,t,-0.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Reduncini,,f 11046,Koobi Fora,upper Burgi,,u,1.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,f 11109,Koobi Fora,upper Burgi,,u,-1.3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,f 12355,Koobi Fora,upper Burgi,,u,0.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,f 12630,Koobi Fora,upper Burgi,,u,0.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,f 14201,Koobi Fora,upper Burgi,,u,-1.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,f 8050b,Koobi Fora,upper Burgi,,u,-1.7,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,FwJj20-1271,Koobi Fora,upper Burgi,,t,1.9,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Reduncini,,FwJj20-1812,Koobi Fora,upper Burgi,,u,1.7,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Reduncini,,FwJj20-1946,Koobi Fora,upper Burgi,,u,1.2,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Reduncini,,FwJj20-5619,Koobi Fora,upper Burgi,,u,1.4,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Reduncini,,FwJj20-6596,Koobi Fora,upper Burgi,,u,2.1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Bovidae,Reduncini,,KNM-ER 4471,Koobi Fora,upper Burgi,,t,-1.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-ER 4608,Koobi Fora,upper Burgi,,t,-0.8,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Reduncini,,KNM-WT 38236,Nachukui,upper Lomekwi,,u,0,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f WT 3223,Kanapoi,Kanapoi,,t,-10,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-KP 30216,Kanapoi,Kanapoi,,u,-11.7,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-KP 30472,Kanapoi,Kanapoi,,t,-11,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-KP 35,Kanapoi,Kanapoi,,t,-9.9,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-KP 40,Kanapoi,Kanapoi,,t,-10.3,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-KP 504,Kanapoi,Kanapoi,,t,-9.6,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,105-1311-02.1,Koobi Fora,KBS,,t,-8.9,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42506,Koobi Fora,Lonyumun,,t,-11.6,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42508,Koobi Fora,Lonyumun,,t,-9.3,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42509,Koobi Fora,Lonyumun,,u,-9,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42510,Koobi Fora,Lonyumun,,t,-11,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42511,Koobi Fora,Lonyumun,,t,-7.8,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 42516,Koobi Fora,Lonyumun,,t,-9.5,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,f 43675,Koobi Fora,Lonyumun,,u,-11.8,4.0-4.3,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-WT 16728,Nachukui,lower Lomekwi,,t,-11.9,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-WT 16727,Nachukui,middle Lomekwi,,t,-9.7,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Rhinocerotidae,Rhino B,,KNM-WT 16730,Nachukui,middle Lomekwi,,t,-8.8,3.0-2.5,3.0 to 2.5,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-LT 23968,Nachukui,Kaiyumung,,t,0.5,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-LT 23969,Nachukui,Kaiyumung,,t,-0.6,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-LT 26283,Nachukui,Kaiyumung,,t,0.8,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,LT 23968,Nachukui,Kaiyumung,,t,0.5,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,LT 23969,Nachukui,Kaiyumung,,t,-0.6,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,LT-26283,Nachukui,Kaiyumung,,t,0.8,Probably,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-KP 38,Kanapoi,Kanapoi,,t,-0.2,4.2-4.0,4.3 to 4.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 40248,Nachukui,Kataboi,,t,-0.8,4.0-3.4,4.0 to 3.4,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,f 5688,Koobi Fora,KBS,,t,0.3,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 16726,Nachukui,Lokalalei,,t,-0.3,2.5-2.35,2.5-2.35,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 39596,Nachukui,lower Lomekwi,,t,0.5,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 39597,Nachukui,lower Lomekwi,,t,-0.8,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 39598,Nachukui,lower Lomekwi,,t,-0.2,3.4-3.0,3.4 to 3.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,KNM-WT 19662,Nachukui,Nariokotome,,t,1.3,1.3-0.75,1.3 to 1.0,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,f 5674,Koobi Fora,upper Burgi,,u,-0.3,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,f 6038 ave,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,f 6678,Koobi Fora,upper Burgi,,u,1.6,2.1-1.9,2.35 to 1.9,this study
+Perissodactyla,Rhinocerotidae,Rhino G,,FwJj20-7818,Koobi Fora,upper Burgi,,t,2.1,2.1-1.9,2.35 to 1.9,58
+Perissodactyla,Rhinocerotidae,Rhino G,,FwJj20-8403,Koobi Fora,upper Burgi,,t,1,2.1-1.9,2.35 to 1.9,58
+Artiodactyla,Giraffidae,Sivatherium,,KNM-WT 17472,Nachukui,Kaiyumung,,t,-9.4,Probably,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-KP 30227,Kanapoi,Kanapoi,,t,-9.1,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-KP 30227,Kanapoi,Kanapoi,,t,-7.4,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-KP 32551,Kanapoi,Kanapoi,,u,-10.1,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,105-1311-03 average,Koobi Fora,KBS,,u,0,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,105-1311-16 average,Koobi Fora,KBS,,u,-5.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,105-1311-43.1,Koobi Fora,KBS,,u,-0.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,f 1795,Koobi Fora,KBS,,u,0.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,f 2313,Koobi Fora,KBS,,u,0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 1198,Koobi Fora,KBS,,t,-0.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 1201,Koobi Fora,KBS,,t,-2.6,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 316,Koobi Fora,KBS,,t,-4.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Giraffidae,Sivatherium,,261-Sivathere,Koobi Fora,Lonyumun,,t,-12,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,f 3673,Koobi Fora,Lonyumun,,t,-12.3,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-WT 39870,Nachukui,lower Lomekwi,,u,-12,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-WT 39875,Nachukui,lower Lomekwi,,u,-10.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 780 average,Koobi Fora,Okote,,t,0.9,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 5865,Koobi Fora,"Tulu Bor, lower",,t,-11.6,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Giraffidae,Sivatherium,,f 13660 ave,Koobi Fora,upper Burgi,,u,-2.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Sivatherium,,f 6552,Koobi Fora,upper Burgi,,u,-3.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 3917,Koobi Fora,upper Burgi,,t,-8.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 3921,Koobi Fora,upper Burgi,,t,-3.1,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-ER 6162 ave,Koobi Fora,upper Burgi,,t,-5.5,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Giraffidae,Sivatherium,,KNM-WT 16221,Nachukui,upper Lomekwi,,t,-9.8,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 14735,Nachukui,Kaitio,,u,-7.4,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 17546,Nachukui,Kaitio,,u,-3.4,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 38159,Nachukui,Kaitio,,u,-3.1,1.9-1.5,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 14887,Nachukui,Kalochoro,,u,-7.8,2.35-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,f WT 3240-Trag,Kanapoi,Kanapoi,,t,-9.8,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-KP 32573,Kanapoi,Kanapoi,,u,-9.3,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-KP 32829,Kanapoi,Kanapoi,,u,-5.3,4.2-4.0,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,105-1311-03.8,Koobi Fora,KBS,,u,-8.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,105-1311-10.1,Koobi Fora,KBS,,u,-3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 13736,Koobi Fora,KBS,,u,0.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 14432,Koobi Fora,KBS,,u,-10.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 6052,Koobi Fora,KBS,,t,-7.2,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 6586,Koobi Fora,KBS,,t,-5.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 7481b,Koobi Fora,KBS,,u,-3.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 4912,Koobi Fora,KBS,,t,-10,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 7470,Koobi Fora,KBS,,u,-6.4,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 16498,Nachukui,Lokalalei,n,u,-3,2.5-2.35,2.5-2.35,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 5855,Koobi Fora,Lokochot,,t,-9.3,3.6-3.4,4.0 to 3.4,this study
+Artiodactyla,Bovidae,Tragelaphini,,261-1I,Koobi Fora,Lonyumun,,t,-3.5,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 3690-trag-p1,Koobi Fora,Lonyumun,,t,-9.2,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 42545,Koobi Fora,Lonyumun,,u,-10,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 42553,Koobi Fora,Lonyumun,,u,-8.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 42877,Koobi Fora,Lonyumun,,u,-6.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 16496,Nachukui,lower Kalochoro,,t,-4.8,2.35-2.1,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 16500,Nachukui,lower Lomekwi,,u,-4.3,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 39070,Nachukui,lower Lomekwi,,u,-7.5,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 14878,Nachukui,Nariokotome,,t,-4.1,1.3-0.75,1.3 to 1.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 4350,Koobi Fora,Okote,,u,-6.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 4352,Koobi Fora,Okote,,u,-7.4,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 4365,Koobi Fora,Okote,,u,-5.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 499,Koobi Fora,Okote,,u,-9.3,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 511,Koobi Fora,Okote,,t,-3.5,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 5683 ave,Koobi Fora,Okote ,,t,-4.7,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 7075,Koobi Fora,Okote ,,u,-5.8,1.55-1.4,1.5 to 1.3,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 2811,Koobi Fora,"Tulu Bor, lower",,t,-6.1,3.4-3.0,3.4 to 3.0,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 12085,Koobi Fora,upper Burgi,,u,-7.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 12188,Koobi Fora,upper Burgi,,u,0.2,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 14015,Koobi Fora,upper Burgi,,u,0.6,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,f 4694,Koobi Fora,upper Burgi,,u,-6.4,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 2874,Koobi Fora,upper Burgi,,t,-3,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-ER 4612,Koobi Fora,upper Burgi,,t,-2.9,2.1-1.9,2.35 to 1.9,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 16497,Nachukui,upper Lomekwi,,t,-8.3,3.0-2.5,3.0 to 2.5,this study
+Artiodactyla,Bovidae,Tragelaphini,,KNM-WT 16506,Nachukui,upper Lomekwi,,u,-6.3,3.0-2.5,3.0 to 2.5,this study
+Proboscidea,Elephantidae,,,104-A9.01,Koobi Fora,KBS,,t,1.1,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,104-B11.01,Koobi Fora,KBS,,t,-0.5,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,,,104-B16.01,Koobi Fora,KBS,,u,0.5,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,,,104-B17.02,Koobi Fora,KBS,,t,0.7,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,,,104-B28.01,Koobi Fora,KBS,,u,-0.6,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,104-B6.01,Koobi Fora,KBS,,t,0.2,1.9-1.55,1.9 to 1.5,this study
+Perissodactyla,Equidae,,,104-X.01,Koobi Fora,KBS,,u,0.3,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,105-1311-03.4,Koobi Fora,KBS,,t,-2.3,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,105-1311-03.5,Koobi Fora,KBS,,t,-0.5,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Suidae,,,105-1311-06.2,Koobi Fora,KBS,,u,-0.9,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,,,105-1311-08.1,Koobi Fora,KBS,,u,1.6,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,105-1311-18.1,Koobi Fora,KBS,,t,-0.3,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,,,105-1311-45.3,Koobi Fora,KBS,,t,-0.1,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,,,105-1311-x.1,Koobi Fora,KBS,,t,1.7,1.9-1.55,1.9 to 1.5,this study
+Artiodactyla,Bovidae,,,f 9194,Koobi Fora,KBS,,u,1.1,1.9-1.55,1.9 to 1.5,this study
+Proboscidea,Elephantidae,,,261-1A,Koobi Fora,Lonyumun,,t,-5.7,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,261-1B,Koobi Fora,Lonyumun,,t,-5,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,261-1C,Koobi Fora,Lonyumun,,t,-9.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,,,f 30353,Koobi Fora,Lonyumun,,u,-11.3,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f 3672,Koobi Fora,Lonyumun,,t,-1.7,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f 3698,Koobi Fora,Lonyumun,,t,-10.6,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,,,f 42669,Koobi Fora,Lonyumun,,u,-4.6,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,,,f 42830,Koobi Fora,Lonyumun,,u,-6.6,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,,,f 43288,Koobi Fora,Lonyumun,,u,-12.1,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f 43443,Koobi Fora,Lonyumun,,t,-4.8,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Giraffidae,,,f 43615,Koobi Fora,Lonyumun,,u,-12,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f 43693a,Koobi Fora,Lonyumun,,t,-5.1,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f 43798,Koobi Fora,Lonyumun,,u,-2.7,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,,,f MS 4864,Koobi Fora,Lonyumun,,t,-6,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,,,f MS 4865,Koobi Fora,Lonyumun,,t,-5.6,4.0-4.3,4.3 to 4.0,this study
+Artiodactyla,Bovidae,,,f MS 4875,Koobi Fora,Lonyumun,,t,-5.2,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,f MS 4891 b,Koobi Fora,Lonyumun,,t,-3.8,4.0-4.3,4.3 to 4.0,this study
+Proboscidea,Elephantidae,,,FwJj20-10350,Koobi Fora,upper Burgi,,t,0.3,2.1-1.9,2.35 to 1.9,58
+Proboscidea,Elephantidae,,,FwJj20-5042,Koobi Fora,upper Burgi,,t,0,2.1-1.9,2.35 to 1.9,58
+Proboscidea,Elephantidae,,,FwJj20-5270,Koobi Fora,upper Burgi,,u,-0.1,2.1-1.9,2.35 to 1.9,58
+Proboscidea,Elephantidae,,,FwJj20-5452,Koobi Fora,upper Burgi,,t,0.4,2.1-1.9,2.35 to 1.9,58
+Proboscidea,Elephantidae,,,FwJj20-5940,Koobi Fora,upper Burgi,,t,-0.1,2.1-1.9,2.35 to 1.9,58
+Proboscidea,Elephantidae,,,FwJj20-8275,Koobi Fora,upper Burgi,,t,-0.4,2.1-1.9,2.35 to 1.9,58
