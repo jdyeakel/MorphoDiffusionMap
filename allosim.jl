@@ -57,7 +57,7 @@ evecs = ev[2];
 
 namespace = string("$(homedir())/2018_eigenvec/figures/allosim.pdf");
 R"""
-pdf()
+pdf(namespace, height = 12, width = 15)
 par(mfrow=c(2,2))
 
 library(RColorBrewer)
@@ -79,4 +79,5 @@ library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp);
 s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal[$(sortperm(sortperm(M)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h',xlim=c(-0.1,0.1));
 # text(s3d$xyz.convert(cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1)),labels=$sp,cex=0.5);
+dev.off()
 """
