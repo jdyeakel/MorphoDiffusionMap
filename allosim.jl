@@ -2,10 +2,10 @@ using(DataFrames)
 using(CSV)
 using(RCall)
 using(Distributions)
-include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
-include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
-# include("$(homedir())/2018_eigenvec/src/laplacian.jl")
-# include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
+# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
+# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
+include("$(homedir())/2018_eigenvec/src/laplacian.jl")
+include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
 
 
 nsp = 100;
