@@ -57,7 +57,7 @@ evecs = ev[2];
 
 namespace = string("$(homedir())/2018_eigenvec/figures/allosim.pdf");
 R"""
-pdf(namespace, height = 12, width = 15)
+pdf($namespace, height = 12, width = 15)
 par(mfrow=c(2,2))
 
 library(RColorBrewer)
