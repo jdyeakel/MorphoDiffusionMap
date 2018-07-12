@@ -2,8 +2,10 @@ using(DataFrames)
 using(CSV)
 using(RCall)
 using(Distributions)
-include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
-include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
+# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
+# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
+include("$(homedir())/2018_eigenvec/src/laplacian.jl")
+include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
 
 
 nsp = 500;
@@ -53,7 +55,7 @@ eval = ev[1];
 evecs = ev[2];
 
 
-namespace = string("$(homedir())/Dropbox/PostDoc/2018_eigenvec/figures/allosim.pdf");
+namespace = string("$(homedir())/2018_eigenvec/figures/allosim.pdf");
 R"""
 pdf()
 par(mfrow=c(2,2))
