@@ -8,9 +8,9 @@ include("$(homedir())/2018_eigenvec/src/laplacian.jl")
 include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
 
 
-nsp = 500;
+nsp = 1000;
 sp = collect(1:nsp);
-nmeas = 500;
+nmeas = 1000;
 
 b0error = 0.000001;
 b0dist = Normal(0,b0error);
