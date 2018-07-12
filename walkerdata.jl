@@ -1,35 +1,8 @@
 using(DataFrames)
 using(CSV)
 using(RCall)
-eigencluster = function(sp,evecs,n)
-    carray = Array{Array}();
-    carray[1] = sortperm(evecs[:,2]);
-    println("Ordered List ","=",sp[carray[1]])
-    for i=2:n
-        eigenvec = evecs[:,i];
-        rarray = Array{Array}(0);
-        for j = 1:length(carray)
-            set21 = find(x->x>0,eigenvec);
-            set22 = find(x->x<0,eigenvec);
-    
-            set21 = intersect(carray[j],set21);
-            set22 = intersect(carray[j],set22);
-            if length(set21) > 0
-                push!(rarray,set21);
-            end
-            if length(set22) > 0
-                push!(rarray,set22)
-            end
-        end
-        carray = copy(rarray);
-    end
-    for i=1:length(carray)
-        println()
-        println("Cluster ",i,"=",sp[carray[i]])
-    end
-    # println(showall(carray))
-end
-
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
 
 ##############################
 # HERBIVORE POSTCRANIAL DATA
@@ -41,8 +14,6 @@ genus = pcdata[:Genus];
 species = pcdata[:Species];
 _array = Array{Char}(length(genus)); _array[1:length(genus)] = ' ';
 gensp = mapslices(join, [Array{String}(genus) _array Array{String}(species)], 2);
-
-
 nsp = size(pcdata)[1];
 nmeas = size(pcdata)[2];
 
@@ -50,99 +21,129 @@ nmeas = size(pcdata)[2];
 # remove = [find(x->x==:mass_max_kg,names(pcdata));find(x->x==:mass_min_kg,names(pcdata))]
 # keep = deleteat!(collect(1:nmeas),remove);
 # pcdata = pcdata[:,keep];
-nmeas = size(pcdata)[2];
-pcdatatr = pcdata[:,6:nmeas];
+# nmeas = size(pcdata)[2];
+bodymass = Array(pcdata[:mass_max_kg]);
+pcdatatr = copy(pcdata[:,6:nmeas]);
+#Delete measurements that are missing for ALL species
+nmeas = size(pcdatatr)[2];
+todelete = Array{Int64}(0);
+for i=1:nmeas
+    if all(ismissing.(pcdatatr[:,i]))
+        push!(todelete,i);
+    end
+end
+pcdatatr = pcdatatr[:,setdiff(collect(1:nmeas),todelete)];
+meas = Array{String}(names(pcdatatr));
+nmeas = size(pcdatatr)[2];
+
+# pcdatatr = Array(pcdatatr) ./ Array(pcdatatr[:femur_length]);
+
 
 #scale to 'mass'
-pcdatatr = Array(pcdatatr) ./ Array(pcdatatr[:femur_length]);
+fl = copy(Array(pcdatatr[:femur_length]));
+for i=1:nmeas
+    pcdatatr[:,i] = Array(pcdatatr[:,i]) ./ fl;
+end
 
-nmeas = size(pcdatatr)[2];
+
+nomeas = Array{Int64}(nsp);
+for i=1:nsp
+    nomeas[i] = length(find(ismissing,Array(pcdatatr[i,:])));
+end
+bydataamt = sortperm(nomeas);
+
 PC = Array{Float64}(nsp,nsp);
 # measmeans = mean(pcdatatr[!isnothing(pcdatatr)],1);
 #Build similarity matrix
 for i = 0:(nsp^2 - 1)
     a = mod(i,nsp) + 1;
     b = Int64(floor(i/nsp)) + 1;
-    
     if a == b
         PC[a,b] = 0.0;
         continue
     end
-    # if a==1
-    #     println(b)
-    # end
     ct = 0;
-    # ct = Array{Float64}(nmeas).*0 + 1;
     ctones = 0;
     for j = 1:nmeas
         if !ismissing(pcdatatr[a,j]) && !ismissing(pcdatatr[b,j])
-            # ct += (sqrt((pcdatatr[a,j]-pcdatatr[b,j])^2)); #/mean(pcdatatr[!ismissing.(pcdatatr[:,j]),j]);
             ct += log(minimum([pcdatatr[a,j],pcdatatr[b,j]])/maximum([pcdatatr[a,j],pcdatatr[b,j]]));
             ctones += 1;
         end
-        # ctones += PA[a,j] + PA[b,j];
     end
     ctscaled = exp(ct/ctones);
-    PC[a,b] = Float64(ctscaled); #/Float64(ctones);
-    
+    PC[a,b] = Float64(ctscaled); #/Float64(ctones);s
 end
 
-
-S = zeros(Float64,nsp,nsp);
-# S = copy(-PC);
-for i = 1:nsp
-
-    val = zeros(Float64,10);
-    lok = zeros(Int64,10);
-
-    for j = 1:nsp
-        if PC[i,j] > val[10]
-            val[10] = PC[i,j];
-            lok[10] = j;
-        end
-        for k=1:9
-            if val[11-k] > val[10-k]
-                v = val[11-k];
-                val[11-k] = val[10-k];
-                val[10-k] = v;
-                l = lok[11-k];
-                lok[11-k] = lok[10-k];
-                lok[10-k] = l;
-            end
-        end
-    end
-    S[i,lok] = -PC[i,lok];
-    S[lok,i] = -PC[lok,i];
-end
-rowsums = sum(S,2);
-S[diagind(S)] = -rowsums;
-
+S = laplacian(PC,10);
 ev = eigs(S; nev=10,which=:SR);
 eval = ev[1];
 evecs = ev[2];
 
 ranked = sortperm(evecs[:,2]);
-sp[sortperm(evecs[:,2])]
+
 
 R"""
 image($(PC[ranked,ranked]))
 """
 
 R"""
-plot($(evecs[:,2]),$(evecs[:,3]))
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
 text($(evecs[:,2]),$(evecs[:,3]),$sp,cex=0.5)
 """
 
 R"""
-plot($(evecs[:,2]),$(evecs[:,4]))
-text($(evecs[:,2]),$(evecs[:,4]),$sp,cex=0.5)
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,2])*-1,$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+text($(evecs[:,2])*-1,$(evecs[:,4]),$sp,cex=0.5)
 """
+for i=1:length(trophic[:,1])
+    if in(trophic[i,1],gensp) && in(trophic[i,2],gensp)
+        # println(trophic[i,1], " -> ",trophic[i,2])
+        #draw a link
+        eigencoord1 = [evecs[:,2][find(x->x==trophic[i,1],gensp)];evecs[:,4][find(x->x==trophic[i,1],gensp)]];
+        eigencoord2 = [evecs[:,2][find(x->x==trophic[i,2],gensp)];evecs[:,4][find(x->x==trophic[i,2],gensp)]];
+        R"""
+        coords = rbind($(eigencoord1),$(eigencoord2))
+        lines(x=coords[,1],y=coords[,2],add=T,col=alpha('gray',0.5),lwd=1,lwd=0.5)
+        """
+    end
+end
 
 R"""
-library(plot3D)
-scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]))
-text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$sp,cex=0.5,add=T)
+library(scatterplot3d) 
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+s3d = scatterplot3d(x=cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1),color=pal[$(sortperm(sortperm(nomeas)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h')
+text(s3d$xyz.convert(cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1)),labels=$sp,cex=0.5)
 """
+
+#3D plot with plotly
+R"""
+library(plotly)
+t <- list(
+  family = "sans serif",
+  size = 14,
+  color = toRGB("grey50"))
+species = $sp;
+df = data.frame(species,$(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1);
+colnames(df) = c('sp','ev2','ev3','ev4');
+p <- plot_ly(df, x = ~ev2, y = ~ev3, z = ~ev4,
+        mode = 'text',
+        text = ~species,
+        textposition = 'middle right',
+        marker = list(color = ~ev2, colorscale = c('#FFE1A1', '#683531'), showscale = TRUE)) %>%
+        add_markers() %>%
+        add_text(textfont = t, textposition = "top right") %>%
+  layout(scene = list(xaxis = list(title = 'ev2'),
+                     yaxis = list(title = 'ev3'),
+                     zaxis = list(title = 'ev4')),
+         annotations = F)
+"""
+
+
 
 baskspcodes = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/baskervilledata/Table_S1.csv",header=true);
 baskcode = Array(baskspcodes[:code]);
@@ -168,26 +169,47 @@ for i = 1:length(preysunique)
     trophic[id,2] = repeat(baskgensp[codetosp],outer=length(id));
 end
 
-namespace = "$(homedir())/Dropbox/PostDoc/2018_eigenvec/walkertrophic.pdf";
 R"""
-library(plot3D)
-library(scales)
-pdf($namespace,width=10,height=8)
-scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),pch=16,colkey=F,theta=0,phi=0,ticktype="detailed",xlab='EV2',ylab='EV3',zlab='EV4')
-text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$sp,cex=0.5,add=T,colkey=F)
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,2]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(nomeas)))],pch=16)
+text($(evecs[:,2]),$(evecs[:,4]),$sp,cex=0.5)
 """
 for i=1:length(trophic[:,1])
     if in(trophic[i,1],gensp) && in(trophic[i,2],gensp)
         # println(trophic[i,1], " -> ",trophic[i,2])
         #draw a link
-        eigencoord1 = [evecs[:,2][find(x->x==trophic[i,1],gensp)];evecs[:,3][find(x->x==trophic[i,1],gensp)];evecs[:,4][find(x->x==trophic[i,1],gensp)]];
-        eigencoord2 = [evecs[:,2][find(x->x==trophic[i,2],gensp)];evecs[:,3][find(x->x==trophic[i,2],gensp)];evecs[:,4][find(x->x==trophic[i,2],gensp)]];
+        eigencoord1 = [evecs[:,2][find(x->x==trophic[i,1],gensp)];evecs[:,4][find(x->x==trophic[i,1],gensp)]];
+        eigencoord2 = [evecs[:,2][find(x->x==trophic[i,2],gensp)];evecs[:,4][find(x->x==trophic[i,2],gensp)]];
         R"""
         coords = rbind($(eigencoord1),$(eigencoord2))
-        lines3D(x=coords[,1],y=coords[,2],z=coords[,3],add=T,colkey=F,col=alpha('gray',0.5),lwd=1,lwd=0.5)
+        lines(x=coords[,1],y=coords[,2],col=alpha('gray',0.5),lwd=0.5)
         """
     end
 end
+
+namespace = "$(homedir())/Dropbox/PostDoc/2018_eigenvec/walkertrophic.pdf";
+R"""
+library(scatterplot3d) 
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+s3d = scatterplot3d(x=cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1),color=pal[$(sortperm(sortperm(nomeas)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=0.5,angle=88,type='h')
+text(s3d$xyz.convert(cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1)),labels=$sp,cex=0.5)
+"""
+for i=1:length(trophic[:,1])
+    if in(trophic[i,1],gensp) && in(trophic[i,2],gensp)
+        # println(trophic[i,1], " -> ",trophic[i,2])
+        #draw a link
+        eigencoord1 = [evecs[:,2][find(x->x==trophic[i,1],gensp)]*-1;evecs[:,3][find(x->x==trophic[i,1],gensp)]*-1;evecs[:,4][find(x->x==trophic[i,1],gensp)]*-1];
+        eigencoord2 = [evecs[:,2][find(x->x==trophic[i,2],gensp)]*-1;evecs[:,3][find(x->x==trophic[i,2],gensp)]*-1;evecs[:,4][find(x->x==trophic[i,2],gensp)]*-1];
+        R"""
+        coords = rbind($(eigencoord1),$(eigencoord2))
+        lines(s3d$xyz.convert(cbind(coords[,1],coords[,2],coords[,3])),col=alpha('gray',0.5),lwd=0.5)
+        """
+    end
+end
+
+
 R"""
 # scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),pch=16,colkey=F,add=T)
 # text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$sp,cex=0.5,add=T,colkey=F)
@@ -210,94 +232,6 @@ for ii = 1:nsite
     localsp = intersect(zspsite,gensp);
     spmissing[ii] = length(setdiff(zspsite,gensp));
 end
-
-
-# namespace = "$(homedir())/Dropbox/PostDoc/2018_eigenvec/walkerbysite.pdf";
-# R"""
-# library(plot3D)
-# library(scales)
-# pdf($namespace,width=10,height=15)
-# par(mfrow=c(3,5))
-# """
-# for ii = 1:nsite
-#     zspsite = zsp[find(isodd,padata[:,ii])];
-#     localsp = intersect(zspsite,gensp);
-#     keep = indexin(localsp,gensp)
-#     pcdatalocal = pcdatatr[keep,:];
-#     nsp = length(keep);
-#     nmeas = size(pcdatalocal)[2];
-#     PC = Array{Float64}(nsp,nsp);
-#     # measmeans = mean(pcdatatr[!isnothing(pcdatatr)],1);
-#     #Build similarity matrix
-#     for i = 0:(nsp^2 - 1)
-#         a = mod(i,nsp) + 1;
-#         b = Int64(floor(i/nsp)) + 1;
-# 
-#         if a == b
-#             PC[a,b] = 0.0;
-#             continue
-#         end
-#         # if a==1
-#         #     println(b)
-#         # end
-#         ct = 0;
-#         # ct = Array{Float64}(nmeas).*0 + 1;
-#         ctones = 0;
-#         for j = 1:nmeas
-#             if !ismissing(pcdatalocal[a,j]) && !ismissing(pcdatalocal[b,j])
-#                 # ct += (sqrt((pcdatatr[a,j]-pcdatatr[b,j])^2)); #/mean(pcdatatr[!ismissing.(pcdatatr[:,j]),j]);
-#                 ct += log(minimum([pcdatalocal[a,j],pcdatalocal[b,j]])/maximum([pcdatalocal[a,j],pcdatalocal[b,j]]));
-#                 ctones += 1;
-#             end
-#             # ctones += PA[a,j] + PA[b,j];
-#         end
-#         ctscaled = exp(ct/ctones);
-#         PC[a,b] = Float64(ctscaled); #/Float64(ctones);
-# 
-#     end
-# 
-#     maxdiff = minimum([10,nsp-1]);
-# 
-#     S = zeros(Float64,nsp,nsp);
-#     # S = copy(-PC);
-#     for i = 1:nsp
-# 
-#         val = zeros(Float64,maxdiff);
-#         lok = zeros(Int64,maxdiff);
-# 
-#         for j = 1:nsp
-#             if PC[i,j] > val[maxdiff]
-#                 val[maxdiff] = PC[i,j];
-#                 lok[maxdiff] = j;
-#             end
-#             for k=1:maxdiff-1
-#                 if val[maxdiff+1-k] > val[maxdiff-k]
-#                     v = val[maxdiff+1-k];
-#                     val[maxdiff+1-k] = val[maxdiff-k];
-#                     val[maxdiff-k] = v;
-#                     l = lok[maxdiff+1-k];
-#                     lok[maxdiff+1-k] = lok[maxdiff-k];
-#                     lok[maxdiff-k] = l;
-#                 end
-#             end
-#         end
-#         S[i,lok] = -PC[i,lok];
-#         S[lok,i] = -PC[lok,i];
-#     end
-#     rowsums = sum(S,2);
-#     S[diagind(S)] = -rowsums;
-# 
-#     ev = eigs(S; nev=10,which=:SR);
-#     eval = ev[1];
-#     evecs = ev[2];
-# 
-#     R"""
-#     scatter3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),pch=16,colkey=F,theta=0,phi=0,ticktype="detailed",xlab='EV2',ylab='EV3',zlab='EV4',main=$(site[ii]))
-#     text3D($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]),labels=$(sp[keep]),cex=0.5,add=T,colkey=F)
-#     """
-# 
-# end
-# R"dev.off()"
 
 
 
@@ -324,4 +258,31 @@ for ii = sortperm(spmissing)
     
 end
 R"dev.off()"
+
+
+
+
+
+
+
+
+#PCA of the same dataset
+using MultivariateStats
+dataset = pcdatatr;
+nmeas = size(dataset)[2];
+#turn every missing datapoint into the mean for that measurement
+d = Array(dataset);
+for i=1:nmeas
+    d[find(ismissing,d[:,i]),i] = mean(d[find(!ismissing,d[:,i]),i]);
+end
+d[find(ismissing,d)] = NaN;
+d = Array{Float64}(d);
+fit(PCA,d)
+R"""
+library(ggfortify)
+data = $d;
+rownames(data) = $sp;
+colnames(data) = $meas;
+autoplot(prcomp(data),label=T,label.size=2,loadings=T,loadings.label=T,loadings.label.size  = 2)
+"""
 

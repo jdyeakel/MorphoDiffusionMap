@@ -1,35 +1,8 @@
 using(DataFrames)
 using(CSV)
 using(RCall)
-eigencluster = function(sp,evecs,n)
-    carray = Array{Array}();
-    carray[1] = sortperm(evecs[:,2]);
-    println("Ordered List ","=",sp[carray[1]])
-    for i=2:n
-        eigenvec = evecs[:,i];
-        rarray = Array{Array}(0);
-        for j = 1:length(carray)
-            set21 = find(x->x>0,eigenvec);
-            set22 = find(x->x<0,eigenvec);
-    
-            set21 = intersect(carray[j],set21)
-            set22 = intersect(carray[j],set22)
-            if length(set21) > 0
-                push!(rarray,set21);
-            end
-            if length(set22) > 0
-                push!(rarray,set22)
-            end
-        end
-        carray = copy(rarray);
-    end
-    for i=1:length(carray)
-        println()
-        println("Cluster ",i,"=",sp[carray[i]])
-    end
-    # println(showall(carray))
-end
-
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
 
 # df = CSV.read("$(homedir())/robertson_1929_matr.csv",header=false);
 # pols = CSV.read("$(homedir())/robertson_1929_pol.csv",header=false);
@@ -91,36 +64,7 @@ for i = 0:(nloc^2 - 1)
 end
 
 
-S = zeros(Float64,nloc,nloc);
-S = copy(-A);
-
-
-for i = 1:nloc
-
-    val = zeros(Float64,10);
-    lok = zeros(Int64,10);
-
-    for j = 1:nloc
-        if A[i,j] > val[10]
-            val[10] = A[i,j];
-            lok[10] = j;
-        end
-        for k=1:9
-            if val[11-k] > val[10-k]
-                v = val[11-k];
-                val[11-k] = val[10-k];
-                val[10-k] = v;
-                l = lok[11-k];
-                lok[11-k] = lok[10-k];
-                lok[10-k] = l;
-            end
-        end
-    end
-    S[i,lok] = -A[i,lok];
-    S[lok,i] = -A[lok,i];
-end
-rowsums = sum(S,2);
-S[diagind(S)] = -rowsums;
+S = laplacian(A,10);
 
 ev = eigs(S; nev=10,which=:SR);
 eval = ev[1];
@@ -206,37 +150,7 @@ for i = 0:(nloc^2 - 1)
     
 end
 
-
-S = zeros(Float64,nloc,nloc);
-S = copy(-A);
-
-
-for i = 1:nloc
-
-    val = zeros(Float64,10);
-    lok = zeros(Int64,10);
-
-    for j = 1:nloc
-        if A[i,j] > val[10]
-            val[10] = A[i,j];
-            lok[10] = j;
-        end
-        for k=1:9
-            if val[11-k] > val[10-k]
-                v = val[11-k];
-                val[11-k] = val[10-k];
-                val[10-k] = v;
-                l = lok[11-k];
-                lok[11-k] = lok[10-k];
-                lok[10-k] = l;
-            end
-        end
-    end
-    S[i,lok] = -A[i,lok];
-    S[lok,i] = -A[lok,i];
-end
-rowsums = sum(S,2);
-S[diagind(S)] = -rowsums;
+S = laplacian(A,10);
 
 ev = eigs(S; nev=10,which=:SR);
 eval = ev[1];
