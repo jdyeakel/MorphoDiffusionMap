@@ -6,9 +6,9 @@ include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
 include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
 
 
-nsp = 1000;
+nsp = 500;
 sp = collect(1:nsp);
-nmeas = 1000;
+nmeas = 500;
 
 b0error = 0.000001;
 b0dist = Normal(0,b0error);
@@ -27,10 +27,10 @@ for i=1:nsp
 end
 
 
-PC = Array{Float64}(nsp,nsp);
+PC = SharedArray{Float64}(nsp,nsp);
 # measmeans = mean(pcdatatr[!isnothing(pcdatatr)],1);
 #Build similarity matrix
-for i = 0:(nsp^2 - 1)
+@time @sync @parallel for i = 0:(nsp^2 - 1)
     a = mod(i,nsp) + 1;
     b = Int64(floor(i/nsp)) + 1;
     if a == b
@@ -53,7 +53,9 @@ eval = ev[1];
 evecs = ev[2];
 
 
+namespace = string("$(homedir())/Dropbox/PostDoc/2018_eigenvec/figures/allosim.pdf");
 R"""
+pdf()
 par(mfrow=c(2,2))
 
 library(RColorBrewer)
