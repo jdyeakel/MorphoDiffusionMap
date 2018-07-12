@@ -82,6 +82,35 @@ evecs = ev[2];
 ranked = sortperm(evecs[:,2]);
 
 
+namespace = string("$(homedir())/Dropbox/Postdoc/2018_eigenvec/figures/walker.pdf");
+R"""
+pdf($namespace, height = 12, width = 15)
+par(mfrow=c(2,2))
+
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,3]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+# text($(evecs[:,3]),$(evecs[:,4]),$sp,cex=0.5)
+
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,3]),$(evecs[:,5]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+# text($(evecs[:,3]),$(evecs[:,5]),$sp,cex=0.5)
+
+library(scatterplot3d) 
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp);
+s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal[$(sortperm(sortperm(bodymass)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h');
+text(s3d$xyz.convert(cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]))),labels=$sp,cex=0.5);
+dev.off()
+"""
+
+
+
 R"""
 image($(PC[ranked,ranked]))
 """
@@ -99,18 +128,7 @@ pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
 plot($(evecs[:,2])*-1,$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
 text($(evecs[:,2])*-1,$(evecs[:,4]),$sp,cex=0.5)
 """
-for i=1:length(trophic[:,1])
-    if in(trophic[i,1],gensp) && in(trophic[i,2],gensp)
-        # println(trophic[i,1], " -> ",trophic[i,2])
-        #draw a link
-        eigencoord1 = [evecs[:,2][find(x->x==trophic[i,1],gensp)];evecs[:,4][find(x->x==trophic[i,1],gensp)]];
-        eigencoord2 = [evecs[:,2][find(x->x==trophic[i,2],gensp)];evecs[:,4][find(x->x==trophic[i,2],gensp)]];
-        R"""
-        coords = rbind($(eigencoord1),$(eigencoord2))
-        lines(x=coords[,1],y=coords[,2],add=T,col=alpha('gray',0.5),lwd=1,lwd=0.5)
-        """
-    end
-end
+
 
 R"""
 library(scatterplot3d) 
