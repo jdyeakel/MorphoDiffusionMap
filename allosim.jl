@@ -2,23 +2,23 @@ using(DataFrames)
 using(CSV)
 using(RCall)
 using(Distributions)
-# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
-# include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
-include("$(homedir())/2018_eigenvec/src/laplacian.jl")
-include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
+# include("$(homedir())/2018_eigenvec/src/laplacian.jl")
+# include("$(homedir())/2018_eigenvec/src/eigencluster.jl")
 
 
-nsp = 100;
+nsp = 1000;
 sp = collect(1:nsp);
 nmeas = 3;
 
-b0error = 0.000001;
+b0error = 0.1;
 b0dist = Normal(0,b0error);
 etaerror = 0.01;
 etadist = Normal(0,etaerror);
 
 b0 = rand(collect(0.01:0.001:10.0),nmeas);
-eta = repeat([0.75],outer=nmeas);
+eta = repeat([0.25],outer=nmeas);
 M = rand(collect(1:0.1:1000),nsp);
 
 data = Array{Float64}(nsp,nmeas);
@@ -26,6 +26,11 @@ for i=1:nsp
     for j=1:nmeas
         data[i,j] = abs(b0[j]*(1+rand(b0dist))*M[i]^(eta[j]*(1+rand(etadist))));
     end
+end
+
+#Normalize data to bodymass
+for i=1:nmeas
+    data[:,i] = data[:,i] ./ (M.^(1.0));
 end
 
 
@@ -55,24 +60,25 @@ eval = ev[1];
 evecs = ev[2];
 
 
-namespace = string("$(homedir())/2018_eigenvec/figures/allosim.pdf");
+# namespace = string("$(homedir())/2018_eigenvec/figures/allosim.pdf");
+namespace = string("$(homedir())/Dropbox/Postdoc/2018_eigenvec/figures/allosim.pdf");
 R"""
-pdf($namespace, height = 12, width = 15)
+# pdf($namespace, height = 12, width = 15)
 par(mfrow=c(2,2))
 
 library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(M)))],pch=16)
+plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(M)))],pch=16,xlab='ev2',ylab='ev3')
 
 library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-plot($(evecs[:,3]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(M)))],pch=16)
-# text($(evecs[:,3]),$(evecs[:,4]),$sp,cex=0.5)
+plot($(evecs[:,2]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(M)))],pch=16,xlab='ev2',ylab='ev4')
+# text($(evecs[:,2]),$(evecs[:,4]),$sp,cex=0.5)
 
 # library(RColorBrewer)
 # pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-# plot($(evecs[:,3]),$(evecs[:,5]),col=pal[$(sortperm(sortperm(M)))],pch=16)
-# # text($(evecs[:,3]),$(evecs[:,5]),$sp,cex=0.5)
+# plot($(evecs[:,3]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(M)))],pch=16)
+# # text($(evecs[:,3]),$(evecs[:,4]),$sp,cex=0.5)
 
 library(scatterplot3d) 
 library(RColorBrewer)
@@ -82,9 +88,9 @@ s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal
 
 
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp);
-s3d = scatterplot3d(x=cbind($(data[:,1]),$(data[:,2]),$(data[:,3])),color=pal[$(sortperm(sortperm(M)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h');
+s3d = scatterplot3d(x=cbind($(data[:,1]),$(data[:,2]),$(data[:,3])),color=pal[$(sortperm(sortperm(M)))],pch=16,xlab='x',ylab='y',zlab='z',scale.y=1,angle=80,type='h');
 
-dev.off()
+# dev.off()
 """
 
 

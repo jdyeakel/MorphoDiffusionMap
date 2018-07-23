@@ -17,12 +17,13 @@ gensp = mapslices(join, [Array{String}(genus) _array Array{String}(species)], 2)
 nsp = size(pcdata)[1];
 nmeas = size(pcdata)[2];
 
-#take out body mass data info
-# remove = [find(x->x==:mass_max_kg,names(pcdata));find(x->x==:mass_min_kg,names(pcdata))]
-# keep = deleteat!(collect(1:nmeas),remove);
-# pcdata = pcdata[:,keep];
-# nmeas = size(pcdata)[2];
+#Archive body mass measure
 bodymass = Array(pcdata[:mass_max_kg]);
+#take out body mass data info
+remove = [find(x->x==:mass_max_kg,names(pcdata));find(x->x==:mass_min_kg,names(pcdata))]
+keep = deleteat!(collect(1:nmeas),remove);
+pcdata = pcdata[:,keep];
+nmeas = size(pcdata)[2];
 pcdatatr = copy(pcdata[:,6:nmeas]);
 #Delete measurements that are missing for ALL species
 nmeas = size(pcdatatr)[2];
@@ -38,14 +39,14 @@ nmeas = size(pcdatatr)[2];
 
 # pcdatatr = Array(pcdatatr) ./ Array(pcdatatr[:femur_length]);
 
-
 #scale to 'mass'
+#Femur length
 fl = copy(Array(pcdatatr[:femur_length]));
 for i=1:nmeas
-    pcdatatr[:,i] = Array(pcdatatr[:,i]) ./ fl;
+    pcdatatr[:,i] = Array(pcdatatr[:,i]) ./ (bodymass.^(0.25));
 end
 
-
+#Eliminate measures that are empty for all species
 nomeas = Array{Int64}(nsp);
 for i=1:nsp
     nomeas[i] = length(find(ismissing,Array(pcdatatr[i,:])));
@@ -82,29 +83,29 @@ evecs = ev[2];
 ranked = sortperm(evecs[:,2]);
 
 
-namespace = string("$(homedir())/Dropbox/Postdoc/2018_eigenvec/figures/walker.pdf");
+namespace = string("$(homedir())/Dropbox/Postdoc/2018_eigenvec/figures/walker_norm025.pdf");
 R"""
 pdf($namespace, height = 12, width = 15)
 par(mfrow=c(2,2))
 
 library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+plot($(evecs[:,2]),$(evecs[:,3]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16,xlab='ev2',ylab='ev3')
 
 library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-plot($(evecs[:,3]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
+plot($(evecs[:,2]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16,xlab='ev2',ylab='ev4')
+# text($(evecs[:,2]),$(evecs[:,4]),$sp,cex=0.5)
+
+library(RColorBrewer)
+pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
+plot($(evecs[:,3]),$(evecs[:,4]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16,xlab='ev3',ylab='ev4')
 # text($(evecs[:,3]),$(evecs[:,4]),$sp,cex=0.5)
-
-library(RColorBrewer)
-pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
-plot($(evecs[:,3]),$(evecs[:,5]),col=pal[$(sortperm(sortperm(bodymass)))],pch=16)
-# text($(evecs[:,3]),$(evecs[:,5]),$sp,cex=0.5)
 
 library(scatterplot3d) 
 library(RColorBrewer)
 pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp);
-s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal[$(sortperm(sortperm(bodymass)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h');
+s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal[$(sortperm(sortperm(bodymass)))],pch=16,scale.y=2,angle=80,type='h',xlab='ev2',ylab='ev3',zlab='ev4');
 text(s3d$xyz.convert(cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]))),labels=$sp,cex=0.5);
 dev.off()
 """
@@ -138,6 +139,7 @@ s3d = scatterplot3d(x=cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1),
 text(s3d$xyz.convert(cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1)),labels=$sp,cex=0.5)
 """
 
+
 #3D plot with plotly
 R"""
 library(plotly)
@@ -146,7 +148,30 @@ t <- list(
   size = 14,
   color = toRGB("grey50"))
 species = $sp;
-df = data.frame(species,$(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1);
+df = data.frame(species,$(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4]));
+colnames(df) = c('sp','ev2','ev3','ev4');
+p <- plot_ly(df, x = ~ev2, y = ~ev3, z = ~ev4,
+        mode = 'text',
+        text = ~species,
+        textposition = 'middle right',
+        marker = list(color = ~ev2, colorscale = c('#FFE1A1', '#683531'), showscale = TRUE)) %>%
+        add_markers() %>%
+        add_text(textfont = t, textposition = "top right") %>%
+  layout(scene = list(xaxis = list(title = 'ev2'),
+                     yaxis = list(title = 'ev3'),
+                     zaxis = list(title = 'ev4')),
+         annotations = F)
+"""
+
+#3D plot with plotly
+R"""
+library(plotly)
+t <- list(
+  family = "sans serif",
+  size = 14,
+  color = toRGB("grey50"))
+species = $sp;
+df = data.frame(species,$(evecs[:,3]),$(evecs[:,4]),$(evecs[:,5]));
 colnames(df) = c('sp','ev2','ev3','ev4');
 p <- plot_ly(df, x = ~ev2, y = ~ev3, z = ~ev4,
         mode = 'text',
@@ -285,9 +310,10 @@ R"dev.off()"
 
 
 #PCA of the same dataset
-using MultivariateStats
+# using MultivariateStats
 dataset = pcdatatr;
 nmeas = size(dataset)[2];
+dataset = log.(dataset);
 #turn every missing datapoint into the mean for that measurement
 d = Array(dataset);
 for i=1:nmeas
@@ -295,7 +321,7 @@ for i=1:nmeas
 end
 d[find(ismissing,d)] = NaN;
 d = Array{Float64}(d);
-fit(PCA,d)
+# fit(PCA,d)
 R"""
 library(ggfortify)
 data = $d;
@@ -304,3 +330,41 @@ colnames(data) = $meas;
 autoplot(prcomp(data),label=T,label.size=2,loadings=T,loadings.label=T,loadings.label.size  = 2)
 """
 
+
+
+
+#Co-occurance matricx
+zdata = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/Zliobaitedata/Zliobaitedata.csv",header=true);
+zsitenames = CSV.read("$(homedir())/Dropbox/Postdoc/2018_eigenvec/Zliobaitedata/Zliobaitesite.csv",header=true);
+zsite = zsitenames[:abbrev];
+
+zsp = zdata[:species];
+nzsp = length(zsp);
+nzsite = length(zsite);
+
+com = Array{Float64}(nzsp,nzsp)
+for i=1:nzsp
+    for j=1:nzsp
+        spi = zsp[i];
+        spj = zsp[j];
+        occ = Array{Int64}(2,13);
+        occ[1,:] = Array{Int64}(zdata[i,10:22]);
+        occ[2,:] = Array{Int64}(zdata[j,10:22]);
+        com[i,j] =sum(prod(occ,1))/sum(occ[1,:]);
+    end
+end
+
+#Question: what is the average similarity of the species in the eigenclusters relative to the average similarity?
+MO = Array{Array}(10);
+for ii=1:10
+eclust = eigencluster(sp,evecs,ii);
+meanoccurance = Array{Float64}(length(eclust))
+for i=1:length(eclust)
+    clustersp = Array{String}(gensp[eclust[i]]);
+    speciesinz = intersect(clustersp,zsp);
+    zsppos = sort(indexin(speciesinz,zsp));
+    covalue = com[zsppos,zsppos];
+    meanoccurance[i] = mean(UpperTriangular(covalue));
+end
+MO[ii] = meanoccurance;
+end

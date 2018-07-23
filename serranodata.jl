@@ -123,3 +123,29 @@ pal = colorRampPalette(brewer.pal(11,"Spectral"))($nsp)
 s3d = scatterplot3d(x=cbind($(evecs[:,2]),$(evecs[:,3]),$(evecs[:,4])),color=pal[$(sortperm(sortperm(yearsbp2)))],pch=16,xlab='ev2',ylab='ev3',zlab='ev4',scale.y=1,angle=80,type='h',xlim=c(-0.1,0.1))
 # text(s3d$xyz.convert(cbind($(evecs[:,2])*-1,$(evecs[:,3])*-1,$(evecs[:,4])*-1)),labels=$sp,cex=0.5)
 """
+
+
+
+
+
+#PCA of the same dataset
+# using MultivariateStats
+dataset = pcdatatr;
+nmeas = size(dataset)[2];
+dataset = log.(dataset);
+#turn every missing datapoint into the mean for that measurement
+d = Array(dataset);
+for i=1:nmeas
+    d[find(ismissing,d[:,i]),i] = mean(d[find(!ismissing,d[:,i]),i]);
+end
+d[find(ismissing,d)] = NaN;
+d = Array{Float64}(d);
+# fit(PCA,d)
+R"""
+library(ggfortify)
+data = $d;
+rownames(data) = $gensp;
+colnames(data) = $meas;
+autoplot(prcomp(data),label=T,label.size=2,loadings=T,loadings.label=T,loadings.label.size  = 2)
+"""
+

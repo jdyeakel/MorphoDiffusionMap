@@ -24,5 +24,5 @@ function eigencluster(sp,evecs,n)
         println()
         println("Cluster ",i,"=",sp[carray[i]])
     end
-    # println(showall(carray))
+    return(carray)
 end
