@@ -33,6 +33,13 @@ zherbs = find(x->x!="Primates",zorder);
 #Intersection of species in walker and zil datasets
 gensp = Array{String}(intersect(wgensp[wherbs],zgensp[zherbs]));
 
+wherbs2 = Array{Int64}(length(gensp));
+zherbs2 = Array{Int64}(length(gensp));
+for i=1:length(gensp)
+    wherbs2[i] = find(x->x==gensp[i],wgensp)[1];
+    zherbs2[i] = find(x->x==gensp[i],zgensp)[1];
+end
+
 #Co-occurance matrix of species across sites in zilobate dataset
 com = Array{Float64}(nzsp,nzsp);
 for i=1:nzsp
@@ -48,8 +55,6 @@ end
 
 # veci = 2;
 
-mo = Array{Float64}(nzsite);
-rmo = Array{Float64}(nzsite);
 eiginterval = Array{Float64}(nzsite);
 reiginterval = Array{Float64}(nzsite);
 for i=1:nzsite
@@ -59,12 +64,11 @@ for i=1:nzsite
     spsite = intersect(zgensp[find(isodd,occurance)],gensp);
     loc = Array{Int64}(length(spsite));
     wloc = Array{Int64}(length(spsite));
+    
     for j=1:length(spsite)
         loc[j] = find(x->x==spsite[j],zgensp)[1];
         wloc[j] = find(x->x==spsite[j],wgensp)[1];
     end
-    occvalue = com[loc,loc];
-    mo[i] = mean(occvalue[setdiff(collect(1:length(loc)^2),diagind(occvalue))]);
     
     eigmatrix = Array{Float64}(length(spsite),length(spsite));
     for j=1:length(spsite)
@@ -74,18 +78,18 @@ for i=1:nzsite
         end
     end
     # eiginterval[i] = std(evecs[wloc,veci]);
-    eiginterval[i] = mean(eigmatrix);
+    for k=0:length(spsite)
+        eigmatrix[diagind(eigmatrix,k)] = NaN;
+    end
+    eiginterval[i] = mean(eigmatrix[find(!isnan,eigmatrix)]);
+    
     
     its = 1000;
-    rrmo = SharedArray{Float64}(its);
     rreiginterval = SharedArray{Float64}(its);
+    
     @sync @parallel for j=1:its
         
-        rloc = rand(zherbs,length(spsite));
-        roccvalue = com[rloc,rloc];
-        rrmo[j] = mean(roccvalue[setdiff(collect(1:length(rloc)^2),diagind(roccvalue))]);
-        
-        rloc2 = rand(wherbs,length(spsite));
+        rloc2 = rand(wherbs2,length(spsite));
         # rreiginterval[j] = std(evecs[rloc2,veci]);
         
         rreigmatrix = Array{Float64}(length(spsite),length(spsite));
@@ -96,11 +100,12 @@ for i=1:nzsite
             end
         end
         # eiginterval[i] = std(evecs[wloc,veci]);
-        rreiginterval[j] = mean(rreigmatrix);
-        
+        for k=0:length(spsite)
+            rreigmatrix[diagind(rreigmatrix,k)] = NaN;
+        end
+        rreiginterval[j] = mean(rreigmatrix[find(!isnan,rreigmatrix)]);
         
     end
-    rmo[i] = mean(rrmo)
     reiginterval[i] = mean(rreiginterval);
 end
 R"""
