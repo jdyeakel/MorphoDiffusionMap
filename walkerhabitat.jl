@@ -4,6 +4,8 @@ using(RCall)
 include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/laplacian.jl")
 include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigencluster.jl")
 include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/walkeranalysis.jl")
+include("$(homedir())/Dropbox/Postdoc/2018_eigenvec/src/eigendistance.jl")
+
 
 pcdata,
 pcdatatr,
@@ -32,7 +34,7 @@ zherbs = find(x->x!="Primates",zorder);
 gensp = Array{String}(intersect(wgensp[wherbs],zgensp[zherbs]));
 
 #Co-occurance matrix of species across sites in zilobate dataset
-com = Array{Float64}(nzsp,nzsp)
+com = Array{Float64}(nzsp,nzsp);
 for i=1:nzsp
     for j=1:nzsp
         occ = Array{Int64}(2,13);
@@ -43,7 +45,8 @@ for i=1:nzsp
 end
 
 #QUESTION: for each site, what is the eigenvector interval distance for species in that site?
-veci = 2;
+
+# veci = 2;
 
 mo = Array{Float64}(nzsite);
 rmo = Array{Float64}(nzsite);
@@ -66,27 +69,30 @@ for i=1:nzsite
     eigmatrix = Array{Float64}(length(spsite),length(spsite));
     for j=1:length(spsite)
         for k=1:length(spsite)
-            eigmatrix[j,k] = sqrt((evecs[wloc,veci][j]-evecs[wloc,veci][k])^2);
+            # eigmatrix[j,k] = sqrt((evecs[wloc,veci][j]-evecs[wloc,veci][k])^2);
+            eigmatrix[j,k] = eigendistance(j,k,evecs,wloc);
         end
     end
     # eiginterval[i] = std(evecs[wloc,veci]);
     eiginterval[i] = mean(eigmatrix);
     
-    its = 10000;
+    its = 1000;
     rrmo = SharedArray{Float64}(its);
     rreiginterval = SharedArray{Float64}(its);
     @sync @parallel for j=1:its
-        rloc = rand(collect(1:size(com)[1]),length(spsite));
+        
+        rloc = rand(zherbs,length(spsite));
         roccvalue = com[rloc,rloc];
         rrmo[j] = mean(roccvalue[setdiff(collect(1:length(rloc)^2),diagind(roccvalue))]);
         
-        rloc2 = rand(collect(1:length(wgensp)),length(spsite));
+        rloc2 = rand(wherbs,length(spsite));
         # rreiginterval[j] = std(evecs[rloc2,veci]);
         
         rreigmatrix = Array{Float64}(length(spsite),length(spsite));
         for l=1:length(spsite)
             for k=1:length(spsite)
-                rreigmatrix[l,k] = sqrt((evecs[rloc2,veci][l]-evecs[rloc2,veci][k])^2);
+                # rreigmatrix[l,k] = sqrt((evecs[rloc2,veci][l]-evecs[rloc2,veci][k])^2);
+                rreigmatrix[l,k] = eigendistance(l,k,evecs,rloc2);
             end
         end
         # eiginterval[i] = std(evecs[wloc,veci]);
@@ -98,23 +104,13 @@ for i=1:nzsite
     reiginterval[i] = mean(rreiginterval);
 end
 R"""
-par(mfrow=c(1,2))
-boxplot($([mo rmo]))
-boxplot($([eiginterval,reiginterval]))
+par(mfrow=c(1,1))
+boxplot($([eiginterval,reiginterval]),ylim=c(0.2,0.4))
 """
         
 zsite[sortperm(eiginterval)]
 
 
-for i=1:length(gensp)
-    spi = gensp[i];
-    #find location in the occurance table
-    loci = find(x->x==spi,zgensp);
-    for j = 1:length(gensp)
-        spj = gensp[j];
-        locj = find(x->x==spj,zgensp);
-        
-    
 
 
 
